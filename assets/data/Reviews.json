@@ -1,0 +1,27 @@
+[
+  {
+    "nameArabic": "عوده الحربي",
+    "nameEng": "Awdah Al Harbi",
+    "image": "../images/ReviewCards/AwdahAlharbi.png"
+  },
+  {
+    "nameArabic": "محمد عبدالله البخاري",
+    "nameEng": "Mohammed Abdullah Albukhari",
+    "image": "../images/ReviewCards/MohAlb.png"
+  },
+  {
+      "nameArabic":"عبيد العتيبي",
+      "nameEng": "Abaid AlOtaibi",
+      "image": "../images/ReviewCards/Abaid.png"
+  },
+  {
+    "nameArabic":"عبدالله حنو",
+    "nameEng": "Abdullah Hanu",
+    "image": "../images/ReviewCards/Abdullahhanu.png"
+  },
+  {
+    "nameArabic":"علي حسن  آل عبساء",
+    "nameEng": "Ali Hassan Al Absaa",
+    "image": "../images/ReviewCards/Ali.png"
+  }
+]

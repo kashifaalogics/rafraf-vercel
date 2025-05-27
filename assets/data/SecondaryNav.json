@@ -1,0 +1,67 @@
+[
+  {
+      "nameArabic": "الرئيسية",
+      "nameEng": "Home",
+      "iden": "/en",
+      "idar": "/"
+  },
+  {
+    "nameArabic": "الزيوت",
+    "nameEng": "Oils",
+    "idar": "/ar/parts/7442",
+    "iden": "/en/parts/7442"
+  },
+  {
+      "nameArabic": "استشاره مجانية",
+      "nameEng": "Free Consulting",
+      "idar": "https://wa.me/send?phone=966536722255&text=عندي استفسار بخصوص الاستشاره المجانيه:",
+      "iden": "https://wa.me/send?phone=966536722255&text=I would like to ask about the free consultation"
+
+  },
+  {
+      "nameArabic":"سعر قطعك مجانا",
+      "nameEng": "Free Pricing",
+      "idar": "https://wa.me/send?phone=966536722255&text=الرجاء تسعير القطع التاليه:",
+      "iden": "https://wa.me/send?phone=966536722255&text=I would like to know the cost of..."
+
+  },
+  {
+      "nameArabic": "هونداي",   
+      "nameEng": "Hyundai",
+      "idar": "/ar/cars/hyundai",
+      "iden": "/en/cars/hyundai"
+  },
+  {
+      "nameArabic": "فورد",
+      "nameEng": "Ford",
+      "idar": "/ar/cars/ford",
+      "iden": "/en/cars/ford"
+  },
+  {
+      "nameArabic": "شانجان",   
+      "nameEng": "Changan",
+      "idar": "/ar/cars/changan",
+      "iden": "/en/cars/changan"
+
+  },
+  {
+      "nameArabic":"المدونه",
+      "nameEng": "Blogs",
+      "idar": "/ar/blog",
+      "iden": "/en/blog"
+  },
+  {
+      "nameArabic": "طلبات الشركات",
+      "nameEng": "Corporate Inquiries",
+      "idar": "https://wa.me/send?phone=966536722255&text=حاب استفسر عن طلبات الشركات",
+      "iden": "https://wa.me/send?phone=966536722255&text=I would like to ask about b2b offerings!"
+
+  },
+  { 
+      "nameArabic": "تواصل معنا",
+      "nameEng": "Contact Us",
+      "idar": "https://wa.me/send?phone=966536722255&text=تواصل معانا",
+      "iden": "https://wa.me/send?phone=966536722255&text=I'm asking about ..."
+
+  }
+]

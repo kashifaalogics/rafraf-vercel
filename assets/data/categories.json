@@ -1,0 +1,95 @@
+[
+    {
+        "nameArabic": "نظام الفرامل",
+        "nameEng": "Brakes",
+        "pathArabic": "parts/brakes",
+        "pathEng": "auto-parts/brakes",
+        "id": "7407"
+    },
+    {
+        "nameArabic": "نظام الكهرباء",
+        "pathArabic": "parts/electrical",
+        "nameEng": "Electrical",
+        "pathEng": "auto-parts/electrical",
+        "id": "7409"
+    },
+    {
+        "nameArabic": "المحرك",
+        "pathArabic": "parts/engine",
+        "nameEng": "Engine",
+        "pathEng": "auto-parts/engine",
+        "id": "7424"
+    },
+    {
+        "nameArabic": "ناقل الحركة/الدفع",
+        "pathArabic": "parts/transmissiondifferentialparts",
+        "nameEng": "Transmission & Differential Parts",
+        "id": "7447",
+        "pathEng": "auto-parts/transmissiondifferentialparts"
+
+    },
+    {
+        "nameArabic": "نظام البنزين والاحتراق",
+        "pathArabic": "parts/injection",
+        "nameEng": "Injection",
+        "id": "7439",
+        "pathEng": "auto-parts/injection"
+
+    },
+    {
+        "nameArabic": "نظام التوجيه والتعليق",
+        "pathArabic": "parts/suspensionhandling",
+        "nameEng": "Suspension & Handling",
+        "id": "7443",
+        "pathEng": "auto-parts/suspensionhandling"
+
+    },
+    {
+        "nameArabic": "الجنوط/العجلات",
+        "pathArabic": "parts/factorywheel",
+        "nameEng": "Factory Wheel",
+        "id": "7437",
+        "pathEng": "auto-parts/factorywheel"
+
+    },
+    {
+        "nameArabic": "قطع البودي",
+        "pathArabic": "parts/externalinternalbody",
+        "nameEng": "External & Internal Body",
+        "id": "7433",
+        "pathEng": "auto-parts/externalinternalbody"
+
+    },
+    {
+        "nameArabic": "نظام تبريد المحرك",
+        "pathArabic": "parts/enginecooling",
+        "nameEng": "Engine Cooling",
+        "id": "7431",
+        "pathEng": "auto-parts/enginecooling"
+
+    },
+    {
+        "nameArabic": "زيوت",
+        "pathArabic": "parts/oils",
+        "nameEng": "Oils",
+        "id": "7442",
+        "pathEng": "auto-parts/oils"
+
+    },
+    {
+        "nameArabic": "نظام التكييف والتسخين",
+        "pathArabic": "parts/acheating",
+        "nameEng": "A\\C & Heating",
+        "id": "7405",   
+        "pathEng": "auto-parts/acheating"
+
+    },
+    {
+        "nameArabic": "فلاتر زيوت",
+        "pathArabic": "parts/oil-filters",
+        "id": "9524",
+        "nameEng": "Oil Filters",
+        "pathEng": "auto-parts/oil-filters"
+
+    }
+]

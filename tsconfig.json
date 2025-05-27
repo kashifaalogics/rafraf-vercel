@@ -1,0 +1,55 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "baseUrl": ".",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "paths": {
+      "@common": [
+        "framework/common"
+      ],
+      "@common/*": [
+        "framework/common/*"
+      ],
+      "@framework": [
+        "framework/magento"
+      ],
+      "@framework/*": [
+        "framework/magento/*"
+      ],
+      "@components/*": [
+        "components/*"
+      ],
+      "@assets/*": [
+        "assets/*"
+      ],
+      "@utils/*": [
+        "utils/*"
+      ]
+    },
+    "incremental": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "./global-types.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

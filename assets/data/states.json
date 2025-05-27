@@ -1,0 +1,1162 @@
+[
+  {
+    "label": "جده",
+    "value": "Jeddah"
+  },
+  {
+    "label": "الرياض",
+    "value": "Riyadh"
+  },
+  {
+    "label": "المدينة المنورة",
+    "value": "Madinah"
+  },
+  {
+    "label": "مكة المكرمة",
+    "value": "Makkah"
+  },
+  {
+    "label": "دمام",
+    "value": "Dammam"
+  },
+  {
+    "label": "الخبر",
+    "value": "Khobar"
+  },
+  {
+    "label": "ينبع",
+    "value": "Yanbu"
+  },
+  {
+    "label": "ينبع البحر",
+    "value": "Yanbu Al Baher"
+  },
+  {
+    "label": "ينبع النخيل",
+    "value": "Yanbu Nakhil"
+  },
+  {
+    "label": "جيزان",
+    "value": "Gizan"
+  },
+  {
+    "label": "نجران",
+    "value": "Najran"
+  },
+  {
+    "label": "أبا الورود",
+    "value": "Aba Alworood"
+  },
+  {
+    "label": "أبها",
+    "value": "Abha"
+  },
+  {
+    "label": "أبها المنهل",
+    "value": "Abha Manhal"
+  },
+  {
+    "label": "أبو عجرم",
+    "value": "Abu Ajram"
+  },
+  {
+    "label": "أبو عريش",
+    "value": "Abu Areish"
+  },
+  {
+    "label": "أحد المسارحة",
+    "value": "Ahad Masarha"
+  },
+  {
+    "label": "أحد رفيدة",
+    "value": "Ahad Rufaidah"
+  },
+  {
+    "label": "أضم",
+    "value": "Adham"
+  },
+  {
+    "label": "أم الجماجم",
+    "value": "Um Aljamajim"
+  },
+  {
+    "label": "أملج",
+    "value": "Umluj"
+  },
+  {
+    "label": "اشيقر",
+    "value": "Ushayqir"
+  },
+  {
+    "label": "الأجفر",
+    "value": "Al Ajfar"
+  },
+  {
+    "label": "الأحساء",
+    "value": "Al Hassa"
+  },
+  {
+    "label": "الأرطاوية",
+    "value": "Artawiah"
+  },
+  {
+    "label": "الأسياح",
+    "value": "Al Asyah"
+  },
+  {
+    "label": "الأضارع",
+    "value": "Al Adari"
+  },
+  {
+    "label": "الأطاولة",
+    "value": "Atawleh"
+  },
+  {
+    "label": "الأفلاج",
+    "value": "Aflaj"
+  },
+  {
+    "label": "الباحة",
+    "value": "Baha"
+  },
+  {
+    "label": "البتراء",
+    "value": "Al Batra"
+  },
+  {
+    "label": "البجداية",
+    "value": "Al Bijadyah"
+  },
+  {
+    "label": "البدائع",
+    "value": "Badaya"
+  },
+  {
+    "label": "البدع",
+    "value": "Al Bada"
+  },
+  {
+    "label": "البشائر",
+    "value": "Al Bashayer"
+  },
+  {
+    "label": "البقيق",
+    "value": "Abqaiq"
+  },
+  {
+    "label": "البكيرية",
+    "value": "Bukeiriah"
+  },
+  {
+    "label": "الثقبة",
+    "value": "Thuqba"
+  },
+  {
+    "label": "الجش",
+    "value": "Al-Jsh"
+  },
+  {
+    "label": "الجوف",
+    "value": "Jouf"
+  },
+  {
+    "label": "الحائط",
+    "value": "Al hait"
+  },
+  {
+    "label": "الحجره",
+    "value": "Hajrah"
+  },
+  {
+    "label": "الحرجة",
+    "value": "Harjah"
+  },
+  {
+    "label": "الحريق",
+    "value": "Hareeq"
+  },
+  {
+    "label": "الحفيّرة",
+    "value": "Al Hufayyirah"
+  },
+  {
+    "label": "الحليفة السفلى",
+    "value": "Al Hulayfah As Sufla"
+  },
+  {
+    "label": "الحناكية",
+    "value": "Hinakeya"
+  },
+  {
+    "label": "الحوية",
+    "value": "Haweyah"
+  },
+  {
+    "label": "الحيث",
+    "value": "Al Haith"
+  },
+  {
+    "label": "الخرمة",
+    "value": "Khurma"
+  },
+  {
+    "label": "الخشيبي",
+    "value": "Al Khishaybi"
+  },
+  {
+    "label": "الخصاوية",
+    "value": "Khasawyah"
+  },
+  {
+    "label": "الخضرية",
+    "value": "Khodaria"
+  },
+  {
+    "label": "الخطة",
+    "value": "Al Khitah"
+  },
+  {
+    "label": "الخفجي",
+    "value": "Khafji"
+  },
+  {
+    "label": "الخماسين",
+    "value": "Khamaseen"
+  },
+  {
+    "label": "الدرعية",
+    "value": "Dere'Iyeh"
+  },
+  {
+    "label": "الدليمية",
+    "value": "Al Dalemya"
+  },
+  {
+    "label": "الدهينة",
+    "value": "Ad Dahinah"
+  },
+  {
+    "label": "الدوادمي",
+    "value": "Dawadmi"
+  },
+  {
+    "label": "الذيبية",
+    "value": "Thebea"
+  },
+  {
+    "label": "الذيبية",
+    "value": "Ath Thybiyah"
+  },
+  {
+    "label": "الرديفة",
+    "value": "Ar Radifah"
+  },
+  {
+    "label": "الرس",
+    "value": "Alrass"
+  },
+  {
+    "label": "الرشاوية",
+    "value": "Ar Rishawiyah"
+  },
+  {
+    "label": "الرفيعة",
+    "value": "Ar Rafi'ah"
+  },
+  {
+    "label": "الرويضة",
+    "value": "Rwaydah"
+  },
+  {
+    "label": "الزلفي",
+    "value": "Zulfi"
+  },
+  {
+    "label": "السر",
+    "value": "Siir"
+  },
+  {
+    "label": "السفانية",
+    "value": "Safanyah"
+  },
+  {
+    "label": "السليل",
+    "value": "Sulaiyl"
+  },
+  {
+    "label": "السليمانية",
+    "value": "As Sulaimaniyah"
+  },
+  {
+    "label": "الشرائع",
+    "value": "Shraie'E"
+  },
+  {
+    "label": "الشعراء",
+    "value": "Ash Shaara"
+  },
+  {
+    "label": "الشعيبه",
+    "value": "Shoaiba"
+  },
+  {
+    "label": "الشفاء",
+    "value": "Shefa'A"
+  },
+  {
+    "label": "الشقيق",
+    "value": "Ash Shuqaiq"
+  },
+  {
+    "label": "الشماسية",
+    "value": "Ash Shimasiyah"
+  },
+  {
+    "label": "الشملي",
+    "value": "Ash Shamli"
+  },
+  {
+    "label": "الشميسي",
+    "value": "Shumeisi"
+  },
+  {
+    "label": "الشنانة",
+    "value": "Ash Shananah"
+  },
+  {
+    "label": "الشنانة",
+    "value": "Shinanh"
+  },
+  {
+    "label": "الصحنة",
+    "value": "Sahna"
+  },
+  {
+    "label": "الصرار",
+    "value": "Sarar"
+  },
+  {
+    "label": "الصلبيّة",
+    "value": "As Sulubiayh"
+  },
+  {
+    "label": "الصوير",
+    "value": "Suwayr"
+  },
+  {
+    "label": "الضبية",
+    "value": "Ad Dubaiyah"
+  },
+  {
+    "label": "الطايف",
+    "value": "Taif"
+  },
+  {
+    "label": "الطوال",
+    "value": "Towal"
+  },
+  {
+    "label": "الطوير",
+    "value": "At Tuwayr"
+  },
+  {
+    "label": "الظبية",
+    "value": "Thabya"
+  },
+  {
+    "label": "الظهران",
+    "value": "Dhahran"
+  },
+  {
+    "label": "العثمانيه",
+    "value": "Othmanyah"
+  },
+  {
+    "label": "العرجاء",
+    "value": "Al Arja"
+  },
+  {
+    "label": "العرضة",
+    "value": "Al Ardah"
+  },
+  {
+    "label": "العضيلية",
+    "value": "Udhaliyah"
+  },
+  {
+    "label": "العمامرة",
+    "value": "Al Ammarah"
+  },
+  {
+    "label": "العوامية",
+    "value": "Awamiah"
+  },
+  {
+    "label": "العيدابي",
+    "value": "Al Idabi"
+  },
+  {
+    "label": "العيص",
+    "value": "Al Ais"
+  },
+  {
+    "label": "العيون",
+    "value": "Uyun"
+  },
+  {
+    "label": "العيينة",
+    "value": "Oyaynah"
+  },
+  {
+    "label": "العُلا",
+    "value": "Oula"
+  },
+  {
+    "label": "الغاط",
+    "value": "Alghat"
+  },
+  {
+    "label": "الفويلق",
+    "value": "Al Fuwaileq"
+  },
+  {
+    "label": "القحمة",
+    "value": "Qahmah"
+  },
+  {
+    "label": "القريات",
+    "value": "Qurayat"
+  },
+  {
+    "label": "القرين",
+    "value": "Al Qarin"
+  },
+  {
+    "label": "القصب",
+    "value": "Qasab"
+  },
+  {
+    "label": "القصيم",
+    "value": "Qassim"
+  },
+  {
+    "label": "القطيف",
+    "value": "Qatif"
+  },
+  {
+    "label": "القعرة",
+    "value": "Qarah"
+  },
+  {
+    "label": "القنفذة",
+    "value": "Qunfudah"
+  },
+  {
+    "label": "القوز",
+    "value": "Qouz"
+  },
+  {
+    "label": "القويعية",
+    "value": "Quwei'Ieh"
+  },
+  {
+    "label": "القيصومة",
+    "value": "Qaysoomah"
+  },
+  {
+    "label": "اللقايط",
+    "value": "Al Laqayit"
+  },
+  {
+    "label": "الليث",
+    "value": "Laith"
+  },
+  {
+    "label": "المبرز",
+    "value": "Mubaraz"
+  },
+  {
+    "label": "المجاردة",
+    "value": "Majarda"
+  },
+  {
+    "label": "المجمعة",
+    "value": "Majma"
+  },
+  {
+    "label": "المخواة",
+    "value": "Mikhwa"
+  },
+  {
+    "label": "المدرج",
+    "value": "Al Midrij"
+  },
+  {
+    "label": "المدى",
+    "value": "Al Mada"
+  },
+  {
+    "label": "المذنب",
+    "value": "Midinhab"
+  },
+  {
+    "label": "المذنب",
+    "value": "Muzneb"
+  },
+  {
+    "label": "المزاحمية",
+    "value": "Muzahmiah"
+  },
+  {
+    "label": "المظيلف",
+    "value": "Muthaleif"
+  },
+  {
+    "label": "المندق",
+    "value": "Mandak"
+  },
+  {
+    "label": "المهد",
+    "value": "Al Mahd"
+  },
+  {
+    "label": "المويه",
+    "value": "Al Moya"
+  },
+  {
+    "label": "النبك ابو قصر",
+    "value": "An Nabk Abu Qasr"
+  },
+  {
+    "label": "النبهانية",
+    "value": "Alnabhanya"
+  },
+  {
+    "label": "النفيعة",
+    "value": "An Nafiah"
+  },
+  {
+    "label": "النقرة",
+    "value": "An Nuqrah"
+  },
+  {
+    "label": "النماص",
+    "value": "Namas"
+  },
+  {
+    "label": "النويرية",
+    "value": "Noweirieh"
+  },
+  {
+    "label": "الهدا",
+    "value": "Alhada"
+  },
+  {
+    "label": "الهفوف",
+    "value": "Hofuf"
+  },
+  {
+    "label": "الهياثم",
+    "value": "Al Hayathem"
+  },
+  {
+    "label": "الواديين",
+    "value": "Wadeien"
+  },
+  {
+    "label": "الوجه",
+    "value": "Wajeh (Al Wajh)"
+  },
+  {
+    "label": "الوسيطاء",
+    "value": "Al Wasayta"
+  },
+  {
+    "label": "بارق",
+    "value": "Bareq"
+  },
+  {
+    "label": "بحرة",
+    "value": "Bahara"
+  },
+  {
+    "label": "بحرة المجود",
+    "value": "Bahrat Al Moujoud"
+  },
+  {
+    "label": "بدر",
+    "value": "Bader"
+  },
+  {
+    "label": "بدر الجنوب",
+    "value": "Badr Al Janoub"
+  },
+  {
+    "label": "بريدة",
+    "value": "Buraidah"
+  },
+  {
+    "label": "بطحاء",
+    "value": "Batha"
+  },
+  {
+    "label": "بقعاء",
+    "value": "Baqaa"
+  },
+  {
+    "label": "بقعاء الشرقية",
+    "value": "Baqa Ash Sharqiyah"
+  },
+  {
+    "label": "بقيق",
+    "value": "Baqiq"
+  },
+  {
+    "label": "بلجرشي",
+    "value": "Biljurashi"
+  },
+  {
+    "label": "بلحمر",
+    "value": "Balahmar"
+  },
+  {
+    "label": "بلسمر",
+    "value": "Balasmar"
+  },
+  {
+    "label": "بلقرن",
+    "value": "Balqarn"
+  },
+  {
+    "label": "بيرق",
+    "value": "Birk"
+  },
+  {
+    "label": "بيش",
+    "value": "Bish"
+  },
+  {
+    "label": "بيشة",
+    "value": "Bisha"
+  },
+  {
+    "label": "تاروت",
+    "value": "Tarut"
+  },
+  {
+    "label": "تبراك",
+    "value": "Tebrak"
+  },
+  {
+    "label": "تبوك",
+    "value": "Tabuk"
+  },
+  {
+    "label": "تثليث",
+    "value": "Tatleeth"
+  },
+  {
+    "label": "تربه",
+    "value": "Turba"
+  },
+  {
+    "label": "تنجيب",
+    "value": "Tanjeeb"
+  },
+  {
+    "label": "تنوما",
+    "value": "Tanuma"
+  },
+  {
+    "label": "تنومة",
+    "value": "Tanumah"
+  },
+  {
+    "label": "تيماء",
+    "value": "Tayma"
+  },
+  {
+    "label": "ثادق",
+    "value": "Thadek"
+  },
+  {
+    "label": "ثرمداء",
+    "value": "Tharmada"
+  },
+  {
+    "label": "ثمير",
+    "value": "Thumair"
+  },
+  {
+    "label": "جبيل",
+    "value": "Jubail"
+  },
+  {
+    "label": "جعرانه",
+    "value": "Ja'Araneh"
+  },
+  {
+    "label": "جفار",
+    "value": "Jafar"
+  },
+  {
+    "label": "جلاجل",
+    "value": "Jalajel"
+  },
+  {
+    "label": "جموم",
+    "value": "Jumum"
+  },
+  {
+    "label": "حائل",
+    "value": "Hail"
+  },
+  {
+    "label": "حالة عمار",
+    "value": "Halat Ammar"
+  },
+  {
+    "label": "حبونا",
+    "value": "Hubuna"
+  },
+  {
+    "label": "حديثه",
+    "value": "Hadeethah"
+  },
+  {
+    "label": "حرض",
+    "value": "Harad"
+  },
+  {
+    "label": "حريمل",
+    "value": "Horaimal"
+  },
+  {
+    "label": "حريملاء",
+    "value": "Huraymala"
+  },
+  {
+    "label": "حزم الجلاميد",
+    "value": "Hazm Al Jalamid"
+  },
+  {
+    "label": "حفر الباطن",
+    "value": "Hafer Al Batin"
+  },
+  {
+    "label": "حقل",
+    "value": "Haqil"
+  },
+  {
+    "label": "حلي",
+    "value": "Hali"
+  },
+  {
+    "label": "حوطة بني تميم",
+    "value": "Hawtat Bani Tamim"
+  },
+  {
+    "label": "حوطة سدير",
+    "value": "Hotat Sudair"
+  },
+  {
+    "label": "حوية/الطائف",
+    "value": "Hawea/Taif"
+  },
+  {
+    "label": "خرج",
+    "value": "Kharj"
+  },
+  {
+    "label": "خليص",
+    "value": "Khulais"
+  },
+  {
+    "label": "خميس مشيط",
+    "value": "Khamis Mushait"
+  },
+  {
+    "label": "خيبر",
+    "value": "Khaibar"
+  },
+  {
+    "label": "خيران",
+    "value": "Khairan"
+  },
+  {
+    "label": "دخنة",
+    "value": "Duhknah"
+  },
+  {
+    "label": "درب",
+    "value": "Darb"
+  },
+  {
+    "label": "دلم",
+    "value": "Daelim"
+  },
+  {
+    "label": "دومة الجندل",
+    "value": "Domat Al Jandal"
+  },
+  {
+    "label": "ديراب",
+    "value": "Deraab"
+  },
+  {
+    "label": "ذهبان",
+    "value": "Zahban"
+  },
+  {
+    "label": "ذهبان",
+    "value": "Dhahban"
+  },
+  {
+    "label": "رابغ",
+    "value": "Rabigh"
+  },
+  {
+    "label": "راس الزور",
+    "value": "Ras Al Kheir"
+  },
+  {
+    "label": "راس تنورة",
+    "value": "Ras Tanura"
+  },
+  {
+    "label": "رجال ألمع",
+    "value": "Rejal Alma'A"
+  },
+  {
+    "label": "رحيمة",
+    "value": "Rahima"
+  },
+  {
+    "label": "رفايع الجمش",
+    "value": "Rvaya Aljamsh"
+  },
+  {
+    "label": "رفحاء",
+    "value": "Rafha"
+  },
+  {
+    "label": "رماح",
+    "value": "Remah"
+  },
+  {
+    "label": "رنية",
+    "value": "Rania"
+  },
+  {
+    "label": "روضة سدير",
+    "value": "Rowdat Sodair"
+  },
+  {
+    "label": "روضة هباس",
+    "value": "Rawdat Habbas"
+  },
+  {
+    "label": "رياض الخبراء",
+    "value": "Riyadh Al Khabra"
+  },
+  {
+    "label": "ساجر",
+    "value": "Sajir"
+  },
+  {
+    "label": "سبت العلايا",
+    "value": "Sabt El Alaya"
+  },
+  {
+    "label": "سراة عبيده",
+    "value": "Sarat Obeida"
+  },
+  {
+    "label": "سقف",
+    "value": "Saqf"
+  },
+  {
+    "label": "سكاكا",
+    "value": "Sakaka"
+  },
+  {
+    "label": "سلوى",
+    "value": "Salwa"
+  },
+  {
+    "label": "سميراء",
+    "value": "Simira"
+  },
+  {
+    "label": "سيهات",
+    "value": "Seihat"
+  },
+  {
+    "label": "شرورة",
+    "value": "Sharourah"
+  },
+  {
+    "label": "شري",
+    "value": "Shari"
+  },
+  {
+    "label": "شقراء",
+    "value": "Shaqra"
+  },
+  {
+    "label": "صامطة",
+    "value": "Samtah"
+  },
+  {
+    "label": "صبيا",
+    "value": "Sabya"
+  },
+  {
+    "label": "صديان",
+    "value": "Sadyan"
+  },
+  {
+    "label": "صفوى",
+    "value": "Safwa"
+  },
+  {
+    "label": "صلبوخ",
+    "value": "Salbookh"
+  },
+  {
+    "label": "ضبا",
+    "value": "Duba"
+  },
+  {
+    "label": "ضرما",
+    "value": "Dhurma"
+  },
+  {
+    "label": "ضرية",
+    "value": "Dariyah"
+  },
+  {
+    "label": "ضليع رشيد",
+    "value": "Dulay Rashid"
+  },
+  {
+    "label": "ضمد",
+    "value": "Damad"
+  },
+  {
+    "label": "طبرجل",
+    "value": "Tabrjal"
+  },
+  {
+    "label": "طريب",
+    "value": "Turaib"
+  },
+  {
+    "label": "طريف",
+    "value": "Turaif"
+  },
+  {
+    "label": "طيبة",
+    "value": "Taiba"
+  },
+  {
+    "label": "ظلم",
+    "value": "Zallum"
+  },
+  {
+    "label": "ظهران الجنوب",
+    "value": "Dhahran Al Janoob"
+  },
+  {
+    "label": "عجم",
+    "value": "Ojam"
+  },
+  {
+    "label": "عرعر",
+    "value": "Arar"
+  },
+  {
+    "label": "عسفان",
+    "value": "Asfan"
+  },
+  {
+    "label": "عفيف",
+    "value": "Afif"
+  },
+  {
+    "label": "عقلة الصقور",
+    "value": "Uqlat Al Suqur"
+  },
+  {
+    "label": "عقيق",
+    "value": "Aqiq"
+  },
+  {
+    "label": "عمق",
+    "value": "Amaq"
+  },
+  {
+    "label": "عنك",
+    "value": "Anak"
+  },
+  {
+    "label": "عنيزة",
+    "value": "Onaiza"
+  },
+  {
+    "label": "عين ابن فهيد",
+    "value": "Ayn Fuhayd"
+  },
+  {
+    "label": "عين دار",
+    "value": "Ain Dar"
+  },
+  {
+    "label": "عيون الجواء",
+    "value": "Oyoon Al Jawa"
+  },
+  {
+    "label": "غزالة",
+    "value": "Ghazalah"
+  },
+  {
+    "label": "غطي",
+    "value": "Ghtai"
+  },
+  {
+    "label": "فرسان",
+    "value": "Farasan"
+  },
+  {
+    "label": "قرية العليا",
+    "value": "Qariya Al Olaya"
+  },
+  {
+    "label": "قرية الكربوس",
+    "value": "Karboos"
+  },
+  {
+    "label": "قصيباء",
+    "value": "Qusayba"
+  },
+  {
+    "label": "قفار",
+    "value": "Qufar"
+  },
+  {
+    "label": "قيلوة",
+    "value": "Gilwa"
+  },
+  {
+    "label": "قُبة",
+    "value": "Qbah"
+  },
+  {
+    "label": "كبدة",
+    "value": "Kubadah"
+  },
+  {
+    "label": "كحلة",
+    "value": "Kahlah"
+  },
+  {
+    "label": "كراء",
+    "value": "Kara'A"
+  },
+  {
+    "label": "كرى",
+    "value": "Kara"
+  },
+  {
+    "label": "ليلى",
+    "value": "Layla"
+  },
+  {
+    "label": "مبايض",
+    "value": "Mubayid"
+  },
+  {
+    "label": "محايل عسير",
+    "value": "Mohayel Aseer"
+  },
+  {
+    "label": "مدينة الملك خالد العسكرية",
+    "value": "King Khalid Military City"
+  },
+  {
+    "label": "مرات",
+    "value": "Mrat"
+  },
+  {
+    "label": "مستورة",
+    "value": "Mastura"
+  },
+  {
+    "label": "مليجة",
+    "value": "Mulaija"
+  },
+  {
+    "label": "مليح",
+    "value": "Mulayh"
+  },
+  {
+    "label": "منيفة القاعد",
+    "value": "Munifat Al Qaid"
+  },
+  {
+    "label": "مهد الذهب",
+    "value": "Mahad Al Dahab"
+  },
+  {
+    "label": "موقق",
+    "value": "Mawqaq"
+  },
+  {
+    "label": "موقق",
+    "value": "Moqaq"
+  },
+  {
+    "label": "نبيه",
+    "value": "Nabiya"
+  },
+  {
+    "label": "نصاب",
+    "value": "Nisab"
+  },
+  {
+    "label": "نمار",
+    "value": "Nimra"
+  },
+  {
+    "label": "نورية",
+    "value": "Nwariah"
+  },
+  {
+    "label": "هديب",
+    "value": "Hedeb"
+  },
+  {
+    "label": "وادي ابن هشبل",
+    "value": "Wadi Bin Hasbal"
+  },
+  {
+    "label": "وادي الدواسر",
+    "value": "Wadi El Dwaser"
+  },
+  {
+    "label": "وادي فاطمة",
+    "value": "Wadi Fatmah"
+  },
+  {
+    "label": "النعيرية",
+    "value": "Al Nairyah"
+  },
+  {
+    "label": "الصبيخة",
+    "value": "Subheka"
+  },
+  {
+    "label": "تندا",
+    "value": "Tanda"
+  }
+]

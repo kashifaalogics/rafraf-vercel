@@ -1,0 +1,52 @@
+{
+    "title": "Privacy policy"   ,
+    "header": {
+        "text": "Privacy Policy"
+      },
+      "href":{
+        "A":"Browse Rafraf Online Store",
+        "B":"Information necessary to carry out the transactions requested by you",
+        "C":"Why does Rafraf Store collect this data",
+        "D":"Our commitment to protecting the security of users' information",
+        "E":"Manage, review and update your information",
+        "F":"When you contact us",
+        "G":"Disclosure of your personal information",
+        "H":"About modifying the privacy policy and confidentiality of information",
+        "I":"Finally"
+    },
+
+    "What":{
+
+        "title":"Rafraf Online Store | Privacy policy",
+        "text":"The management of the Rafaf online store appreciates the care and attention of our valued customers regarding the privacy of their data on the Internet, and we promise them that when they deal with our store, we are entrusted with their information, and we are aware that this is a great responsibility, and we seriously protect it and maintain complete confidentiality and ensure that they do not use this information except in accordance with the policy This privacy. The privacy policy of the flap store aims to help you understand what personal information we collect and how we deal with it, as well as how to update, amend or delete your information"
+    },
+
+    "body":{
+      "A":"Any time you visit any of the Internet sites, including our online store, the host server will automatically and routinely record your Internet Protocol (IP) address, as well as the date and time of the visit, the type of Internet browser you use and the URL of any Internet site that you visit They refer you to this online store, all with the aim of knowing the number of visitors, how they enter each site, and so on. We did not design this store to collect your personal data from your computer while you browse this platform, but only the data provided by you will be used with your knowledge and voluntarily.",
+      "B":"When we need any of your data, we will ask you to provide it of your own volition. This information will help us in contacting you and carrying out your requests optimally within the Kingdom of Saudi Arabia. And when you create an account on our online store, all we actually collect is some personal information that you provide to us, such as your name, address, email and shipping address information.",
+      "C":"The primary purpose of collecting user data is to maintain internal account records, speed up the process of providing services and products, and customize them according to the user’s address and type of vehicle. We also use this information to: Process and deliver purchase orders as quickly as required Send newsletters about the latest developments in our work in addition to offers or information Others about the Flap Store that may be of interest to you. Improving our products and services to cover all market needs of guaranteed spare parts and original oils Including this information in customized data used for statistical and research purposes without including any data that may be used to identify you or reach you.",
+      "D":"We are committed at all times to maintaining the privacy and confidentiality of all personal data of users of the Rafaf online store services, and in order to prevent unauthorized access or disclosure, we have put in place appropriate physical and electronic measures to protect and secure the information we collect and the data provided by us will never be shared. He accepted you to any third party for the purpose of marketing it for his own benefit",  
+      "E":"When you log into the Rafraf store, you can always review and update your account information through your control panel, and you can at any time ask us to stop sending any messages for direct marketing purposes through our email",
+      "F":"When you contact us, we will treat all the data provided by you on the basis that it is confidential, and it will be used by us in responding to all your inquiries, comments or requests from our online store",
+      "G":"Rafaf online store will not disclose your information to any third party unless we obtain your permission or if it is requested by the competent authorities such as the judicial authorities and other supervisory authorities in the Kingdom of Saudi Arabia, or to defend and protect the property rights of our online store or the beneficiaries thereof. If you believe that any information we have about you is incorrect or incomplete, please email us as soon as possible, and we will immediately correct any information found to be incorrect.",
+      "H":"Rafraf Store reserves the right to amend the terms and conditions of the privacy policy and information privacy if necessary and when appropriate. In the event that any modifications are implemented, we will inform all of our clients",
+      "I":"Your concerns and concern about the confidentiality and privacy of your data is a matter of utmost importance to us. We hope that this will be achieved through the privacy policy adopted by our online store"
+
+  },
+
+  
+    "soial":{
+      "text1":"Important information to know.",
+      "text2":"We ask our valued customers to also review the privacy policy and payment and shipping policy of the Rafaf online store, and do not forget to follow us on our social media pages:"
+    },
+
+    "contact":{
+
+      "text1":"Do you have any questions about the privacy policy or the services provided by the Rafraf online store?",
+      "text2":"You can always contact us through:",
+      "rafraf_app":"Rafraf application  ",
+      "whatsapp":"WhatsApp",
+      "e-mail":"E-mail",
+      "help_center":"Help Center"   
+    }
+}

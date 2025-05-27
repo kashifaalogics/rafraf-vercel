@@ -1,0 +1,55 @@
+{
+  "title": "checkout",
+  "deliveryForm": {
+    "title": "Delivery address and recipient data",
+    "firstname": "First name",
+    "password": "Password",
+    "lastname": "Last name",
+    "streetAddress": "Street address",
+    "email": "Email",
+    "phoneNumber": "Phone number",
+    "country": "Country",
+    "postalCode": "Post code",
+    "city": "City",
+    "shippingMethod": "Shipping method",
+    "existEmailNote": "You have an account with this email, please log in",
+    "passwordCheck": "There was a problem, The password entered is not correct"
+  },
+  "orderSummary": {
+    "title": "Order Summary",
+    "count": "total products",
+    "quantity": "quantity",
+    "tax": "Tax",
+    "shipping": "Shipping",
+    "grandTotal": "Grand Total",
+    "vatInclusive": "Price is VAT inclusive",
+    "noCart": "You don't have items in the cart"
+  },
+  "paymentForm": {
+    "title": "Payment Methods"
+  },
+  "crediCardForm": {
+    "cardNumber": "card number",
+    "cardNumberError": "invalid card number",
+    "month": "month",
+    "monthError": "please enter valid month of 2 digits",
+    "year": "year",
+    "yearError": "please enter valid year of 4 digits",
+    "cvv": "CVV",
+    "cvvError": "invalid code",
+    "name": "Card holder full name"
+  },
+  "success": "Thank you, order successfully created",
+  "error": "Unexpected error happened, please contact us on WhatsApp",
+  "apple_pay_error": "Apple pay is not supported on this browser",
+  "required_fields": "Please fill all the required fields",
+
+  "DECLINED": "Transaction declined by the bank, Please use an alternate credit card",
+  "INSUFFICIENT_FUNDS": "There is no enough amount on the card to complete the transaction",
+  "UNSPECIFIED_FAILURE": "The bank has declined the transaction for an undefined cause, Please use an alternate credit card.",
+  "TIMED_OUT": "The bank was unable to be connected, Please attempt to process this transaction again.",
+  "Value 'xxxx' is invalid. value: xxxx - reason: Invalid secure code length": "The security number (CVC/CVV) was entered incorrectly by the cardholder",
+  "EXPIRED CARD": "The transaction failed as the card appears to have expired.",
+  "REFERRED": "The bank has indicated there is a problem with the credit card number.",
+  "Allowed time frame for transaction has been expired": "The payment process took too long (more than 15 minutes), Please try again"
+}

@@ -1,0 +1,49 @@
+{
+  "title": "About Rafraf",
+  "topbanner": {
+    "title": "Who We Are & How We Excelled in Auto Part Reselling",
+    "text": "Rafraf.com is a market-leading online car parts store improving the way Saudi drivers shop for genuine, OEM, aftermarket auto parts, high-quality American engine oils and oil filters. Despite its relatively recent business start in 2019, Rafraf soon gained an enviable reputation being a trusted auto parts reseller in Saudi Arabia and satisfying the Saudi market needs for original and top-quality auto parts as well as oils.",
+    "download": "Download Rafraf App on IOS",
+    "browse": "Download Rafraf App on Android"
+  },
+  "about": {
+    "identity": {
+      "title": "Our identity",
+      "text": "Rafaf believes in the importance of this sector in the Saudi market, and takes it upon itself to provide the best guaranteed spare parts at competitive prices and multiple options."
+    },
+    "vision": {
+      "title": "Our vision",
+      "text": "To effectively contribute to the realization of the Kingdom’s 2030 vision by upgrading the online auto parts market in the Kingdom and providing exceptional value to customers, so that Raffa remains one of the most important players in this market."
+    },
+    "standards": {
+      "title": "Our standards",
+      "text": "Rafraf believes in the right of the customer to choose and compare, and takes it seriously to provide a variety of high-quality spare parts at competitive prices through the integrated Rafraf online store, which allows customers to find auto parts that may be difficult to find elsewhere. We deal with original spare parts, as well as certified and reliable replacement parts"
+    }
+  },
+  "values": {
+    "title": "Rate us",
+    "passion": {
+      "title": "Passion",
+      "text": "We work with love and sincerity, and we seek to crown every work day with a new achievement and good relationships."
+    },
+    "trust": {
+      "title": "Trust",
+      "text": "We put the customer’s trust in mind and believe in our ability to maintain it by working responsibly and efficiently."
+    },
+    "quality": {
+      "title": "Quality",
+      "text": "We do not satisfy our customers what we do not satisfy ourselves, and therefore we are keen to provide quality products High, suitable prices and from reliable sources."
+    },
+    "integrity": {
+      "title": "Integrity",
+      "text": "We are keen to deal with our customers and partners with the utmost honesty, transparency and respect."
+    },
+    "commitment": {
+      "title": "Commitment",
+      "text": "We strive to provide the highest standards of customer satisfaction and focus on meeting their needs to the fullest to achieve success in the short and long term."
+    }
+  },
+  "social": {
+    "title": "You can follow us on social media"
+  }
+}

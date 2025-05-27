@@ -1,0 +1,26 @@
+{
+  "aboutUsSection": {
+    "title": "عن شركة رفرف الدولية لقطع غيار السيارات",
+    "text": "شغوفون بكل ما يتعلق بقطع الغيار وزيوت المحركات، نوفر قطع غيار تويوتا، قطع غيار هونداي، قطع غيار فورد وشيفروليه، إن لم تجد القطعة/ السيارة تواصل معنا على الواتس.",
+    "subscribeLabel": "البريد الالكتروني",
+    "subscribeAction": "أرسل"
+  },
+  "informationSection": {
+    "title": "معلومات عامة",
+    "blog": "المدونة",
+    "contactUs": "تواصل معنا",
+    "whoWeAre": "من نحن",
+    "downloadContract": "عرض السجل التجاري",
+    "privacyPolicy": "سياسة الخصوصية",
+    "shipping&Payment": "الشحن والدفع",
+    "warrenty&Returns": "الضمان والإرجاع"
+  },
+  "categoriesSection": {
+    "title": "التصنيفات"
+  },
+  "contactsSection": {
+    "title": "تواصل معنا",
+    "liveChat": "محادثة فورية"
+  },
+  "copyRight": "متجر رفرف © {{date}}. جميع الحقوق محفوظة | تطوير فريق رفرف"
+}

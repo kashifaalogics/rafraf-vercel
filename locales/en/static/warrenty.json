@@ -1,0 +1,55 @@
+{
+    "title": "warrenty",
+    "clauses": {
+      "title":"Warrenty Terms",
+      "fisrt": "Rafraf Online Store only deals with Genuine, OEM and Aftermarket automotive parts; we DO NOT DEAL with counterfeit or low-quality car parts at all.",
+      "second": "All parts sold on Rafraf.com are new and unused parts. Rigid inspection procedures are followed for each spare part before it’s sold to ensure suitability and quality.",
+      "third": "Our guarantees are based upon the warranties given by the authorized agent or distributor of each auto part. The warranty period and its mechanism varies according to the type, category and supplier of each part, in line with the conditions of the Ministry of Commerce and Industry in the Kingdom of Saudi Arabia.",
+      "fourth": " In the event that a factory defect is claimed on the part, the customer must provide evidence of the manufacturing defect, and then coordination will be made with him for return or replacement procedures if the evidence is correct. If the evidence is not correct, then Rafraf Online Store has the right to keep the both the auto part and the freight costs."
+    },
+    "matching":{
+        "title":"Auto Parts Matching",
+        "text":"Rafraf does its best to ensure each auto part is perfectly suitable for the clients’ vehicle. It all starts by letting the client identify the vehicle and then choose the parts that are compatible with it; however, our built-in search engine cannot ensure all the parts would be a 100% match, as it is the client’s responsibility to verify a total match between the part and his/her car."
+    },
+    "excluded":{
+        "title":"The following cases are excluded from our guarantee",
+        "first":"Misuse of the product or improper installation by the customer or another party.",
+        "second":"The guarantee expires in (3 days) after purchasing the part.",
+        "third":"The part shall not be opened and its components or parts replaced or tampered with. In the event this is done, the guarantee shall be deemed void.",
+        "fourth":"The guarantee excludes faulty installation or incorrect programming, and in the event of damage to the part as a result of the installation, the guarantee shall be void.",
+        "fifth":"While the guarantee includes the part that does not work as required, it does not include the difference in shape or specifications of the part due to the wrong request on the part of the customer.",
+        "sixth":"All returned parts must be in new, resalable condition. Return requests will not be accepted for any used, installed or dismantled item."
+    },
+    "return_cancel":{
+        "title":"Spare Part refund and order cancellation",
+        "content":{
+            "text":"The policy of returning goods and canceling orders at Rafraf.com is in line with the conditions set by the Saudi Ministry of Commerce and Investment. This means the consumer has the right to return the item within 2 days from the date of the contract with the online store or the date of receiving the product. Clients can also request a return in the event of non-use with the following exceptions:",
+            "first":"The product was sold at the request and specifications determined by the consumer.",
+            "second":"The product appears defective due to misuse."
+        }
+    },
+    "return_cases":{
+        "title":"The customer can return the products in the following cases",
+        "cases":{
+            "first_case":"The product you have received is defected or damaged",
+            "first_case_details":"It is possible to return the product after documenting the damage by the customer. This is done by communicating with Rafraf Online Store through our official channels to return the product, and if the damage or manufacturing defect is proven, the purchase amount in addition to the shipping costs will be returned to the customer.",
+            "second_case":"The product you received does not match the product you purchased on the site",
+            "second_case_details":"It is possible to return the product after documenting a non-conformity. In this case, you can also get in touch with us through our official channels and return the product. At this point, the purchase amount in addition to the shipping costs will be returned to the customer.",
+            "third_case":"I no longer need the product",
+            "third_case_details":"In the event of non-use or benefit, the product can be returned within a maximum period of 7 days from the date of receiving the product, and the value of the shipping forth and back will be deducted from the customer."      
+        }
+    },
+    "footer":{
+        "info":"Important information to know.",
+        "privacy_shipping":"We ask our valued customers to also review the privacy policy and payment and shipping policy of the Rafaf online store, and do not forget to follow us on our social media pages:",
+        "inquiry":"Do you have any questions about the warranty, compliance and return terms of the Rafraf Shop?",
+        "contact":"You can always contact us through:",
+        "channels":{
+            "rafraf_app":"Rafraf application  ",
+            "whatsapp":"WhatsApp",
+            "e-mail":"E-mail",
+            "help_center":"Help Center"   
+        }
+
+    }
+}

@@ -1,0 +1,3 @@
+.slider > * > * {
+  @apply py-5;
+}

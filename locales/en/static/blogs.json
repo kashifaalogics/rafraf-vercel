@@ -1,0 +1,460 @@
+{
+    "Header": "Blogs",
+    "title": "Blogs",
+    "overview": "Overview",
+    "recent_posts": "Recent posts",
+    "stay_in_contact_social": "Let's Stay in contact!",
+    "blog_1": {
+        "id": "فترة-تليين-السيارة",
+        "title": "Important tips for your first car",
+        "date": "November 28, 2021",
+        "imageUrl": "https://api.rafraf.com/pub/media/magefan_blog/file_610.png"
+    },
+    "blog_2": {
+        "id": "2",
+        "title": "Orignal Auto Parts? or Aftermarket?",
+        "date": "November 20, 2020",
+        "imageUrl": "https://api.rafraf.com/pub/media/blog/%D9%82%D8%B7%D8%B9-%D8%BA%D9%8A%D8%A7%D8%B1-%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A3%D8%B5%D9%84%D9%8A%D8%A9-%D8%A8%D8%AF%D9%8A%D9%84%D8%A9.jpg",
+        "body": {
+            "intro_1": "Many of us hear about the original and alternative parts and their prevalence in the auto parts market, but what is the difference between them? And the extent to which they are compatible with price and quality for the final consumer?",
+            "intro_2": "We will try to highlight the different types of parts on the market, and we hope that this article will be a helpful guide for you in purchasing. The classification will be adopted here according to the manufacturer of the part or according to its source:",
+            "header_1": "First) Genuine Parts",
+            "body_1": "These bear the car maker's logo, and are what the car is shipped with from the parent company. Such as spare parts for Toyota, GMC, Ford, and Hyundai... These parts are manufactured by the company that makes the car, or through parts manufacturing companies, according to the terms, conditions, and high quality standards specified by the car maker. It usually comes with the car maker's logo.",
+            "header_2": "Second) OEM",
+            "body_2": "Abbreviated as “Original Equipment Manufacturer”, which means that it was manufactured under license from the parent company, and there are many examples here: “Denso” that manufactures Toyota parts, Mopar that manufactures Jeep, Chrysler and Dodge parts, and ACDelco that manufactures American spare parts such as J cars. MC, Chevrolet, Cadillac, and Motorcraft, which makes parts for Ford and Lincoln cars. These parts are compatible with the original parts of the car, and the car manufacturer supervises the manufacturing process and makes sure that it is within the standard specifications.",
+            "header_3": "Third) Aftermarket",
+            "body_3": {
+                "content": "Perhaps this classification is one of the most important classifications of spare parts, as it constitutes a high percentage of the share of sales of this market as a whole, and for this reason, you will find the most famous spare parts sites that depend on it mainly, such as Carparts and Summit Racing. As for quality, it must be detailed here so that you, dear consumer, will pay attention:",
+                "option_1": "Highly OEM parts, many examples can be listed here: Moog, TYC, US Star, Bosch, …",
+                "option_2": "Professional parts that are better than the original parts: Most of these parts are designed with sporty specifications, and there is no doubt that the quality of these parts exceeds the original ones by stages, despite the fact that they are called “alternative parts”, for example: Brembo brake cloths, Monroe Shocks, and filters K&N filters.",
+                "option_3": "Lower price and quality parts than the original parts: These require expert opinion to distinguish them and ensure their quality and suitability."
+            },
+            "tail": "Note: Some international sites classify ACDelco and Motorcraft as aftermarket parts. We mention here that there is no global agreement on a specific classification, but we decided in this article to follow this classification for its clarity in conveying the idea."
+        }
+    },
+    "blog_3": {
+        "id": "3",
+        "title": "Hyundai spare parts are now available!",
+        "date": "November 25, 2020",
+        "imageUrl": "https://api.rafraf.com/pub/media/blog/قطع-غيار-هونداي.jpg",
+        "content": {
+            "intro": "In response to the demand of many valued customers, spare parts for Hyundai cars have been officially provided on site.",
+            "body": "To choose your car, you can go to the home page, choose Hyundai from the 'Select Car Brand' menu, and then choose the appropriate model, knowing that Fender supports most of the popular Hyundai models: Sonata, Elantra, Azera, Accent, Tucson, Genesis, Santa Fe, and many more.",
+            "footer": "Rafraf now provides Hyundai OEM parts, and Mobis OEM parts will soon be available."
+        }
+    },
+    "blog_4": {
+        "id": "4",
+        "title": "What is the best time to change your engine oil?",
+        "date": "February 24, 2021",
+        "imageUrl": "https://api.rafraf.com/pub/media/magefan_blog/file_3.png",
+        "content": {
+            "intro_1": "Replacing the car's engine oil is necessary to preserve the internal engine parts, especially when the meter exceeds certain distances. The most appropriate option is always - whether to choose the degree of viscosity of the oil or the duration of the change - is to follow the instructions written in the car's handbook.",
+            "intro_2": "But do you know, dear driver, what are the warning signs that tell you when to change your car's oil?",
+            "intro_3": "Rafraf will tell you.",
+            "head_1": "1. Change the color of the oil:",
+            "body_1": "When the driver notices during the examination of the oil dipstick that the color of the oil has changed from light brown or honey to black as a result of sediment and dust inside the engine or the oil losing its viscosity, this is an indication of the need to change it in order to avoid negative effects that may affect the performance of the engine.",
+            "head_2": "2. Engine noise:",
+            "body_2": "It is known that the viscosity of the engine oil inside the engine parts prevents them from rubbing against each other and thus protecting the engine while driving the car. emanating from the engine.",
+            "head_3": "3. Car exhaust smoke:",
+            "body_3": "The smoke emitted (whitish or black) from the exhaust (shakman) of the car is considered a very dangerous sign, indicating the possibility of damage to the internal parts of the engine.",
+            "head_4": "4- Engine oil indicator on the dashboard:",
+            "body_4": "In all modern cars, many warning signs appear in front of the driver on the dashboard that indicate a problem or malfunction in the car, such as a lack of fuel and a high engine temperature, in addition to a sign of oil change, which indicates the need to change it as soon as possible.",
+            "footer_title": "Need help finding the right oil for your car?",
+            "footer_body": "If you, dear driver, encounter one of the above symptoms, you should change your car's oil immediately before the engine parts become damaged and become irreparable. All you have to do is contact the Rafaf team to provide you with the best types of oils and original filters that suit your car to protect the engine and maintain its strong performance."
+        }
+    },
+    "blog_5": {
+        "id": "5",
+        "title": "Learn about the causes of fuel pump damage",
+        "date": "February 28, 2021",
+        "imageUrl": "https://api.rafraf.com/pub/media/blog/أسباب-تلف-طرمبة-البنزين.png",
+        "content": {
+            "intro_1": "The petrol pump is one of the most important components of the car that makes it work well, as it transfers fuel from the fuel tank to the combustion chamber of the engine.",
+            "intro_2": "Like other parts of the car, the fuel pump can be damaged or damaged, so the driver must be aware of the symptoms of fuel pump damage... Let's get to know them with a flap:",
+            "head_1": "- Increased engine temperature:",
+            "body_1": "If the car slows down when the engine temperature rises, this is an indication of a problem with the fuel pump.",
+            "head_2": "Increasing the amount of fuel consumed:",
+            "body_2": "When the petrol pump is damaged, the pump will pump irregular amounts of fuel into the engine and thus may consume more fuel than usual..",
+            "head_3": "Sudden Acceleration:",
+            "body_3": "Exposing the pump to damage and pumping unbalanced amounts of fuel will cause the car to accelerate irregularly.",
+            "head_4": "Low driving force:",
+            "body_4": "The inability of the car to climb or the weak torque of the car in the case of a large number of passengers is an indication that the pump is unable to transfer fuel to the engine as required.",
+            "head_5": "A sound is coming from the car's fuel tank:",
+            "body_5": "When the car is running or while driving, a noise emanating from the pump may be heard, and the sound may increase as the car speed increases, and this is evidence of damage to the petrol pump..",
+            "head_6": "Difficulty starting the car:",
+            "body_6": "Many drivers may experience difficulties in starting the car, which may be caused by damage to the fuel pump due to its loss of thrust, which affects the proper operation of the engine..",
+            "head_7": "Significant engine vibration:",
+            "body_7": "A clear vibration is observed in the engine of the car when it is running. This is a strong indication of damage to the petrol pump.",
+            "footer_title": "Do you need help changing your car's fuel pump?",
+            "footer_body": "In order to maintain the fuel pump, you must pay attention to the level of the fuel tank so that it does not drop below the middle, in addition to changing the fuel filter on time, which has an essential role in preventing impurities and sediment from reaching the fuel tank.."
+        }
+    },
+    "blog_6": {
+        "id": "6",
+        "title": "What are the spark plugs and how do you know they need to be changed?",
+        "date": "March 06, 2021",
+        "imageUrl": "https://api.rafraf.com/pub/media/blog/تلف-بواجي-السيارة-رفرف-السعودية.png",
+        "content": {
+            "intro_1": "The spark plugs of the car, or the so-called spark plugs, are considered one of the most important internal parts of the car, as their function depends on sending electrical signals in order to cause a spark in the combustion chamber to complete the combustion process, which results in the rotation of the car engine.",
+            "intro_2": "Here are the most important indicators that indicate the breakdown of the car spark plugs:",
+            "head_1": "- Change the car's acceleration automatically and suddenly:",
+            "body_1_1": "Damaged spark plugs can cause the engine to accelerate suddenly and then slow down again. This problem is due to an increase in the amount of air entering the engine during the combustion process.",
+            "body_1_2": "Damaged or old spark plugs directly affect the complete combustion process inside the engine, which results in poor engine performance and a noticeable increase in fuel consumption..",
+            "head_2": "Increased gasoline consumption:",
+            "body_2": "Observing an increase in the car's fuel consumption is an indication of a possible defect in the spark plugs, which balance the fuel consumption process.",
+            "head_3": "- Engine not turning:",
+            "body_3": "A faulty spark plug may cause the engine to start to lag as it only turns when the ignition is turned and stops when the key is released.",
+            "head_4": "- Low driving force:",
+            "body_4": "The inability of the car to climb or the weak torque of the car in the case of a large number of passengers is an indication that the pump is unable to transfer fuel to the engine as required.",
+            "head_5": "- Irregular engine revving:",
+            "body_5_1": "When you notice the engine rotating irregularly, this may be due to damage to the spark plug or the breakage of the wire connecting the spark plug, and it may sometimes be accompanied by the sound of an explosion emanating from the car's exhaust.",
+            "body_5_2": "Therefore, we advise you, dear driver, to check the headlights of the car and its related parts through the necessary periodic maintenance to avoid such sudden problems.",
+            "footer_title": "How do you know the right spark plugs for your car?",
+            "footer_body_1": "What are the most prominent types of spark plugs? There are many types of spark plugs and their sizes vary according to the type of car.",
+            "footer_body_2": "Therefore, when you want to replace the spark plugs, you must choose the appropriate spark plugs that match the type of your car. In the flap classification, you find the spark plugs in (gasoline and combustion system, then ignition system). Or contact the Raraf online store team to help you find the right parts for the car."
+        }
+    },
+    "blog_7": {
+        "id": "7",
+        "title": "Causes of car overheating when parking",
+        "date": "March 06, 2021",
+        "imageUrl": "https://api.rafraf.com/pub/media/blog/أسباب-ارتفاع-درجة-حرارة-السيارة-أثناء-الوقوف.png",
+        "content": {
+            "intro_1": "The normal engine temperature depends on the type of car and fuel. When the temperature rises to a certain temperature, the thermostat opens and the engine cooling cycle begins to work as required. The thermostat is one of the most important systems that have been developed over time and are used to prevent temperatures inside The engine from exceeding the limits required for the engine to work properly and efficiently.",
+            "intro_2": "And there are reasons why the engine temperature is higher than normal even while standing. One of the most important of these reasons:",
+            "head_1": "- Malfunction of the water pump (water pump):",
+            "body_1_1": "It is responsible for pumping water into the engine and the cooling radiator, as its failure leads to a rise in the engine temperature..",
+            "head_2": "- The radiator has stopped working:",
+            "body_2": "The failure of the radiator will affect the circulation of the coolant, and in the event that there is smuggling, even if it is simple, in the parts of the radiator, it will result in a leakage of the liquid.",
+            "head_3": "Radiator fan failure:",
+            "body_3": "If the radiator fan stops spinning, it will prevent air from flowing through the radiator and will affect the coolant and cause the temperature to rise.",
+            "head_4": "Car overheating damage:",
+            "body_4_1": "The high temperature when parking the car is one of the dangerous things that lead to serious damage, including:",
+            "body_4_2": "- Decomposition of motor oil and loss of viscosity.:",
+            "body_4_3": "- The engine of the car is completely damaged over time.:",
+            "body_4_4": "- Thermal expansion, which will cause thermal stresses and deform the upper part of the engine, and will result in leakage between the cylinder and the upper cover, and thus stop the engine..:",
+            "head_5": "How do you control car overheating?",
+            "body_5_1": "Some temporary measures can be taken to help reduce the engine temperature until the service center is reached:.",
+            "body_5_2": "-         Turn off the air conditioner immediately..",
+            "body_5_3": "-         Avoid driving the car in crowded places, as this increases the engine temperature.",
+            "body_5_4": "-         Do not drive at high speed.",
+            "body_5_5": "-         Increase the amount of water in the radiator, taking care not to add cold water to the already existing hot water unless the engine is still running.",
+            "body_5_6": "You can order original and alternative auto parts through Flap Store."
+        }
+    },
+    "blog_8": {
+        "id": "8",
+        "title": " What are the causes of the vehicle's vector breakdowns in the car? ",
+        "date": "March 17, 2021",
+        "imageUrl": "https://api.rafraf.com/pub/media/blog/%D8%A3%D8%B9%D8%B7%D8%A7%D9%84_%D8%A7%D9%84%D8%AC%D9%8A%D8%B1_%D8%B1%D9%81%D8%B1%D9%81_%D8%A7%D9%84%D8%B3%D8%B9%D9%88%D8%AF%D9%8A%D8%A9_%D9%82%D8%B7%D8%B9_%D8%BA%D9%8A%D8%A7%D8%B1_%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA.png",
+        "content": {
+            "intro_1": "What is lime or gearbox?",
+            "intro_2": "Before discussing the causes of a transmission malfunction (lime or generosity), let's define its concept first: it is a box (Gearbox) Equipped with mechanical gears, sensors and electronic operators used to control the movement and speed of the car, and it depends on the mode of the gear stick and the amount of pressure on the gasoline pedal.",
+            "head_1": "Here are the most important causes of lime malfunction:",
+            "body_1_1": "The decrease in the amount of oil inside the Jerebox leads to the ineffectiveness.",
+            "body_1_2": "Lime reluctance in the speed change process leads to a breakdown in the bonding of columns.",
+            "body_1_3": "High temperature of lime in crowded places.",
+            "body_1_4": "There is a problem with the wires connected between the lime stick and the speed box",
+            "body_1_5": "Lime oil heat sensor defect",
+            "body_1_6": "The presence of deposits in lime oil",
+            "head_2": "The difference between ordinary lime and automatic lime:",
+            "body_2": "The automatic transmission is characterized by the low cost of fuel consumption, and it can also make the speed change process easily and without any effort unlike the normal lime. Also, the process of transferring the speed in automatic transport cars is faster than cars with normal transport, in addition to the automatic transmission needs a time More to work from the manual carrier.",
+            "head_3": "To keep your car lime .. RafRaf store advises you to follow the following: ",
+            "body_3_1": "Monitor warning signs that appear on the driving screen",
+            "body_3_2": "Monitor the level of lime oil and its wife constantly and change it according to the booklet instructions.",
+            "body_3_3": "Periodic maintenance of Jerbox, change oil and filter, according to the attractions of the attached booklet",
+            "body_3_4": "Do not judge the faults quickly, the error may be expensive sometimes",
+            "head_6": "All spare parts sold in the electronic Raffar store are new pieces and are subject to a comprehensive examination before selling them to ensure the documentation of quality and free of problems, and we also offer our valued customers the advantage of returning the piece before using it without any commission.",
+            "head_7": "Toyota spare parts, Ford spare parts, Chevrolet spare parts, Hyundai spare parts, Hyundai spare parts, Honda spare parts, Hyme",
+            "head_8": "Electronic Rafer Store: The best spare parts guaranteed in the auto parts market. (Original spare parts and alternative parts in addition to original American filters and oils).",
+            "head_9": "Toyota spare parts, Ford spare parts, Chevrolet spare parts, Hyundai spare parts, Hyundai spare parts, Honda spare parts, Hyme"
+        }
+    },
+    "blog_9": {
+        "id": "9",
+        "title": "Oils and fluids that may leak from the vehicle",
+        "date": "August 27, 2023",
+        "imageUrl": "/images/brands/liquid.webp",
+        "content": {
+            "intro_1": "The presence of liquid and oil leaks at the bottom of the car is one of the dangerous things that may happen to the car. Leakage indicates that there is a problem in one of the parts or spare parts of the car. Some drivers may not care about such leaks, which may pose a danger to the car and the lives of passengers.",
+            "head_1": "What are the fluids that may be leaking and what is the cause?",
+            "body_1_1": "Liquids differ in colour, smell and viscosity…",
+            "body_1_2": "Sometimes the accumulated fluid stains at the bottom of the car are ordinary water resulting from condensation as a result of the operation of the air conditioner in the car. They are usually very small stains. In the event that there are stains in large quantities, this is not promising at all, and the fault must be repaired quickly before driving the car and not ignoring it.",
+            "head_2": "Let's learn about the fluids that may leak from the car:",
+            "body_2": "Gasoline: It is easy to identify by its well-known smell. Its presence undoubtedly indicates fuel leakage from the tank. It is important to know the cause of its leakage and treat it immediately due to the possibility of its rapid ignition. The leakage is caused by a problem in one of the fuel pipes under the car that connects the injector to the tank. ",
+            "body3": "Engine oil: Leakage of engine oil is also a serious matter, and prompt maintenance of the car must be carried out due to the risk of decreasing the amount of oil in the engine. One of the most important reasons for decreasing engine oil is its exposure to high pressure and temperature, which causes it to lose its viscosity, or the presence of a problem with the valves or with one of the engine parts, in addition to To mix the oil with the fuel in the combustion chamber.",
+            "body_3_1": "Transmission oil: It is similar to car engine oil in terms of viscosity, but it differs in color. The color of the new oil tends to be bright red, and after long use it becomes dark red or brown. Its leakage must be addressed immediately, as the low level of transmission oil may cause damage to the transmission and the need to replace it. The transmission oil leakage is due to a malfunction or damage to one of the parts of the transmission.",
+            "body_3_2": "Coolant: Its function is to maintain the engine temperature, and it is considered one of the most common leaks. The color of the coolant is green, orange, or pink. Leaking it will lead to a rise in temperature, and the malfunction must be addressed quickly. Coolant leakage is most often due to the radiator, which is responsible for Maintaining the temperature of the car's engine within the permissible limit, as leakage may be caused by the radiator cap not being closed tightly.",
+            "body_3_3": "Brake oil: It is light brown in color to yellowish, with a medium viscosity compared to the viscosity of engine oil or transmission oil. You should not drive the car when you notice a leakage of brake oil. Then the brakes will not work well and the driver may not be able to avoid possible damage. An action must be taken Maintenance required for the main brake system lines and brake pads, as they may be the cause of oil leakage from the vehicle.",
+            "body_3_4": "Battery fluid: If you notice that the leaking fluid smells like rotten eggs, be careful to touch it with your hands, as this liquid is battery acid. The battery must be changed immediately before driving the car.",
+            "head_6": "All the spare parts sold in the Rafaf online store are new parts and undergo a comprehensive examination before selling them to ensure that the quality is documented and that they are free from problems. We also offer our valued customers the advantage of returning the part before using it without any commission.",
+            "head_7": "Dear driver, never be complacent with a fluid leakage at the bottom of your car, as the issue is more serious than you might think, and the cause of the leakage must be known and the fault addressed immediately before driving the car again.",
+            "head_8": "Raraf Online Store: The best guaranteed spare parts in the auto spare parts market. (Original spare parts and alternative spare parts in addition to original American filters and oils).",
+            "head_9": "Toyota spare parts, Ford spare parts, Chevrolet spare parts, Hyundai spare parts, Hyundai spare parts, Honda spare parts, Hummer spare parts, Cadillac spare parts, Lincoln spare parts, Mercury spare parts, Lexus spare parts, GEM spare parts"
+        }
+    },
+    "blog_10": {
+        "id": "10",
+        "title": "Get Back On The Road Faster With Rafraf!",
+        "date": "August 27, 2023",
+        "imageUrl": "https://api.rafraf.com/pub/media/magefan_blog/file_5.png",
+        "content": {
+            "intro_1": "Get Back On The Road Faster With Rafraf",
+            "head_1": "Rafraf Online Store is a full line, KSA-based supplier of genuine car parts, OEM car parts, and aftermarket auto parts, high-quality American engine oils, and fuel filters.",
+            "body_1_1": "We provide our clients all across Saudi Arabia with an extensive range of branded, top-quality automotive parts from world-class vendors.",
+            "head_6_1": "Find The Right OEM / Aftermarket Car Parts, Faster!",
+            "body_2": "If you're in the market for brakes and brake pads, belts and hoses, oil and oil filters, AC heating and air filters, engines and engine cooling, wiper blades, starters, alternators, internal and external car bodies, or any other part for your car, Rafraf Online Store is your place to go!",
+            "body_3": "We pride ourselves on being the one-stop platform for Saudi drivers to buy a wide range of top-class Cadillac, Chevrolet, Ford, GMC,Hyundai, Lexus, Lincoln, Mercury, Honda, and Toyota spare car parts online.",
+            "head_6_1_2": "Buy Spare Parts Online Quickly and Easily Equipped with the latest",
+            "body_5": "technologies for efficient order processing and faster shipping, Rafraf.com makes finding and purchasing car parts online feel like a breeze. We ensure a straightforward, hassle-free shopping experience by offering a variety of payment options, fast car parts shipping within KSA, and easy handling of returns at our return center.",
+            "body_6": "To get started, select your car brand and start shopping in the world of original parts. If you are a Toyota car owner, we have made it easy for you, all you have to do is to write the VIN number and then you can choose the right parts for your car directly."
+        }
+    },
+    "blog_11": {
+        "id": "11",
+        "title": "What is the water pump, and what is its role in maintaining the temperature of the car's engine?",
+        "date": "August 27, 2023",
+        "imageUrl": "/images/brands/waterpump.webp",
+        "content": {
+            "intro_1": "The car engine consists of many spare parts that work together in a homogeneous way. If some of these parts stop, the engine will stop working and it will not be able to complete its rotation without them.",
+            "head_1": "The water pump is considered one of the main and important parts of the car's spare parts, as without it the engine will not be able to run, as it is responsible for maintaining its normal temperature and within the permissible limit for work.",
+            "body_1_1": "It is a fan that continuously pumps coolant into the engine parts to cool it down and keep its temperature within the normal range.",
+            "body_1_2": "When the water pump in the car is damaged, some symptoms will appear on the car's engine. Of course, not all symptoms indicate a malfunction of the pump, but the cause may be due to the pump, so the engine must be checked thoroughly to find out the location of the malfunction and repair or replace it",
+            "head_2": "What are the indicators that could be due to damage to the water pump?",
+            "body_2": "Engine overheating.",
+            "body_2_1": "Hearing loud friction sounds close to the engine of the car caused by a failure in the rotation of the pump pulley as a result of the belts attached to the pump stopping working.",
+            "head_3": "What are the causes of pump damage?",
+            "body_3_1": "Using plain water instead of coolant may corrode the pump blades",
+            "body_3_2": "Neglecting the pump and not performing the necessary maintenance on time.",
+            "body_3_3": "Poor manufacture: It is one of the most common causes of counterfeit or counterfeit spare parts, so you should be careful to choose guaranteed original spare parts of high quality and avoid counterfeit spare parts that may cause you significant financial losses.",
+            "head_6": "All the spare parts sold in the Rafaf online store are new parts and undergo a comprehensive examination before selling them to ensure that the quality is documented and that they are free from problems. We also offer our valued customers the advantage of returning the part before using it without any commission.",
+            "head_7": "Dear driver, never be complacent with a fluid leakage at the bottom of your car, as the issue is more serious than you might think, and the cause of the leakage must be known and the fault addressed immediately before driving the car again.",
+            "head_8": "Raraf Online Store: The best guaranteed spare parts in the auto spare parts market. (Original spare parts and alternative spare parts in addition to original American filters and oils).",
+            "head_9": "Toyota spare parts, Ford spare parts, Chevrolet spare parts, Hyundai spare parts, Hyundai spare parts, Honda spare parts, Hummer spare parts, Cadillac spare parts, Lincoln spare parts, Mercury spare parts, Lexus spare parts, GEM spare parts"
+        }
+    },
+    "blog_12": {
+        "id": "12",
+        "title": "In response to the request of many valued customers, Changan parts are now available!",
+        "date": "September 15, 2023",
+        "imageUrl": "/images/brands/changan_banner.webp",
+        "content": {
+            "intro_1": "Edo, Hunter, CS95, CS85, Alsven, CS75, CS35...",
+            "body_1_1": "To choose your car, you can go to the home page, choose Hyundai from the 'Select Car Brand' list, and then choose the appropriate model, knowing that Rafaff supports most of the popular Hyundai models:",
+            "body_1_2": "Rafraf now provides original Changan parts, and replacement parts compatible with original parts will soon be available."
+        }
+    },
+    "blog_13": {
+        "id": "13",
+        "title": "Make sure to buy original spare parts and ditch the idea of counterfeit parts!",
+        "date": "December 11, 2023",
+        "imageUrl": "/images/brands/buynowx.webp",
+        "content": {
+            "intro_1": "Counterfeit spare parts are made of very cheap materials compared to original spare parts, and there are no guarantees that they will work well. Counterfeit car spare parts have become widespread recently in the Kingdom due to the increase in the size of the automobile sector. The Kingdom is considered one of the largest markets for selling cars in the Middle East. Consequently, counterfeit parts easily found a place to make a quick profit without taking into account the safety of customers and the risks that would befall passengers.",
+            "body_1_1": "The government plays a major role in stopping counterfeit spare parts from spreading in the Saudi market through continuous awareness of the potential dangers of installing counterfeit parts, and it also takes legal measures against those responsible for those parts.",
+            "body_1_2": "General Motors recently established a group of international specialists to protect the brand. This team works in cooperation with partners from around the world to limit the spread of counterfeit parts and stop their arrival at border crossing points. Government agencies in the Kingdom have worked in recent years to tighten control.” On spare parts, many illegal shipments were seized in some border areas, in addition to ongoing internal campaigns to seize violating spare parts and hold their owners accountable.",
+            "body_1_3": "Why should you buy original spare parts and stay away from fake ones?",
+            "body_1_4": "You must pay attention to choosing the type of spare parts for your car and make sure that they are original spare parts. Original spare parts are designed very carefully and are subjected to careful testing by manufacturers to ensure their quality and performance. While we find that counterfeit parts have been manufactured from bad and inferior materials and their purpose is commercial only, Without taking into consideration the safety of the driver and passengers",
+            "body_1_5": "What are the best-selling counterfeit spare parts in the Kingdom?",
+            "body_1_6": "Oil filters and windshield wipers are among the most common counterfeit spare parts on the market, in addition to engine oils and brake discs",
+            "body_1_7": "Some people ignore the importance of car spare parts and believe that car spare parts are similar to any other part on the market outside the scope of cars, and what is important is saving money, but the matter here is different. Let us assume that the brake system in your car - which is considered the basic element of safety - is fake and not original, as it may stop.” God forbid, they suddenly stop working due to poor workmanship! The result you may be exposed to may be disastrous and even fatal. It is also known that counterfeit parts do not last long, and need to be replaced continuously due to the frequent breakdowns they will be exposed to over time, and thus will cost the driver greater additional amounts, Reducing costs means reducing quality as well."
+        }
+    },
+    "blog_14": {
+        "id": "14",
+        "title": "Golden tips to save fuel consumption in your car",
+        "date": "December 30, 2023",
+        "imageUrl": "/images/brands/Benzen.webp",
+        "content": {
+            "intro_1":"Increasing fuel consumption in the car is one of the problems that many drivers face. Is it caused by damage or damage to the car’s spare parts or is it due to wrong behaviors while driving?",
+            "body_1_1": "Let us learn together the most important tips that must be followed to maintain the optimal amount of fuel consumption in the car:",
+            "body_1_2": "Change the oil regularly:",
+            "body_1_3": "Changing the oil regularly is essential to keep the car in its best condition. But over time, the viscosity of the oil becomes severe and contaminated oil begins to accumulate, causing corrosion and thus shortening the life of the car engine.",
+            "body_1_4": "Tire adjustment:",
+            "body_1_5": "The decrease in tire pressure leads to an increase in the contact area between the tire and the road, and therefore the car engine requires additional effort to give the car the ability to move, and this in turn requires an increase in fuel consumption. Every decrease in tire pressure by 5% causes an increase in fuel consumption by 2%.",
+            "body_1_6":"Good handling of the air conditioner:",
+            "body_1_7": "Using the car's air conditioner in slow-moving cities and streets causes an increase in fuel consumption by 20%, while on highways the percentage decreases to 3%, so the car's air conditioning must be handled well.",
+            "body_1_8": "Start the car quietly and avoid sudden acceleration:",
+            "body_1_9": "When starting the car, you must move it at a low speed and not exhaust it, as pressing the gas pedal hard leads to pumping a larger amount of fuel to avoid increasing fuel consumption. You must also not drive at a low speed over long distances.",
+            "body_1_10":"Maintaining car engine temperature:",
+            "body_1_11" : "High engine temperature increases fuel consumption by 10%.",
+            "body_1_12": "Avoid driving on sand and dirt roads:",
+            "body_1_13": "The nature of the roads plays a major role in the amount of fuel consumption. Driving on uneven roads, such as sandy roads, increases resistance and thus causes an increase in the amount of fuel consumption.",
+            "body_1_14": "Turning off the engine in traffic jams:",
+            "body_1_15": "For every minute of waiting, the car's engine expends enough fuel to drive about half a mile. It is better to turn off the engine, especially since it does not require a large amount of fuel to restart.",
+            "body_1_16": "Do not use up all of the car's fuel:",
+            "body_1_17": "The car must be filled with gasoline before the amount drops below approximately one-third in order to maintain a regular amount of fuel flowing to the car’s engine. So that the engine's efficiency does not decrease and it consumes a larger amount of fuel to operate.",
+            "body_1_18": "Clean the air filter regularly:",
+            "body_1_19": "When the air filter slots are filled with dust and dirt, the percentage of oxygen entering the engine will decrease, and thus the engine requires greater effort, which leads to consuming larger amounts of fuel.",
+            "body_1_20":"It is best to perform the necessary maintenance on time by cleaning the filters and spark plugs, which helps the car use fuel more efficiently, and the right oil helps the engine run more smoothly and use less fuel." 
+        }
+    },
+    "blog_15": {
+        "id": "15",
+        "title": "What happens when you reverse the car battery wires?",
+        "date": "January 1st, 2024",
+        "imageUrl": "/images/brands/Battery.webp",
+        "content": {
+            "intro_1": "The battery is considered one of the most important parts of the car, and without it, the electrical current needed to start the car and light the lights and other electrical systems in the car will not exist. Each battery has a specific amperage that varies depending on the size of the car and the power of its engine.",
+            "body_1_1": "But have you thought, dear driver, what would happen if you reversed the wires of the car battery when installing it, such that the positive terminal is connected to the negative terminal and the negative terminal is connected to the positive terminal?",
+            "body_1_2": "Some modern cars have protection against reversing the battery polarity, so that the power is automatically disconnected when the wires are connected incorrectly. But some other cars lack this feature, and therefore reversing the wires incorrectly will result in catastrophic consequences that begin with burning out all of the electrical fuses in the car and damaging some of the battery cells, and may lead to the car igniting, God forbid.",
+            "body_1_3": "How do you properly charge your car battery from another car battery?",
+            "body_1_4": "The correct way to make a subscription between two cars:",
+            "body_1_5": "- You must charge the car battery through another car battery with the same voltage, and be careful not to charge it from a large car or truck battery.",
+            "body_1_6": "- Start by connecting the wires to the healthy battery first, then connect the dead battery wires. (Negative with negative and positive with positive)", 
+            "body_1_7": "- Turn off all accessories that consume electricity in both cars, such as (car air conditioner, car lights, car stereo,...) so that the dynamo can send all of the electricity that is generated towards the battery.",
+            "body_1_8": "- Start the correct car, raise the engine revolutions to 1500 RM, wait for a minute, then start the other car.",
+            "body_1_9": "Therefore, be careful when connecting the car battery wires, as the damage that may occur will cost large financial losses if you do not pay attention."
+        }
+    },
+    "blog_16": {
+        "id": "16",
+        "title": "The accelerator (gasoline) pedal in the car and its malfunctions",
+        "date": "January 7, 2024",
+        "imageUrl": "/images/brands/gassedUP.webp",
+        "content": {
+            "intro_1": "One of the most important parts of the car, it controls the amount of air entering the engine through the handle connected to the pedal and diverts it to the combustion chamber. The accelerator pedal must enter a specific amount of air without increasing or decreasing in order to complete the combustion process in an optimal manner.",
+            "body_1_1": "The gas pedal or its related parts may be subject to many malfunctions that may be catastrophic at times and may pose a threat to the lives of the driver and passengers",
+            "body_1_2": "Accelerator pedal sensor:",
+            "body_1_3": "The pedal contains what is called an accelerator pedal sensor, which measures the pressure on the accelerator pedal to allow the flow of an appropriate amount of air for the combustion process. If there is any defect in the amount of air sent for combustion, it may lead to damage to the sensor.",
+            "body_1_4": "Signs that indicate a malfunction in the accelerator pedal sensor:",
+            "body_1_5": "- The delay in the car's response when pressing the accelerator pedal.",
+            "body_1_6": "- Notice the car vibrating when stopping without turning off the engine.",  
+            "body_1_7": "- The car's slow response to increasing speed when pressing the pedal.",
+            "body_1_8": "- Increase in fuel consumption.",
+            "body_1_9": "- The car engine stops automatically when the car stops with the accelerator pedal body depressed.",
+            "body_1_10": "- The car is unable to move despite continuous pressure on the accelerator pedal. This is due to a difference in the amount of air entering the engine due to a malfunction or damage to the sensor.",
+            "body_1_11": "An alert indicator appears on the dashboard indicating a malfunction in the engine, which may be caused by the accelerator pedal sensor."
+
+    }
+},
+"blog_18": {
+    "id": "18",
+    "title": "The best time to change your car's windshield wipers",
+    "date": "February 19, 2024",
+    "imageUrl": "/images/brands/windWipers.webp",
+    "content": {
+        "intro_1": "Car windshield wipers, and the reason for their invention!",
+        "body_1_1":"The story began on a winter day in 1902 when Mrs. Mary Anderson was on a trip to New York City. She noticed that the car driver was having difficulty wiping the car's windows. This led her to invent a rubber arm that moved from one side to the other on the glass. To clean it and be controlled from inside the car. She obtained a patent for a period of 17 years. The young woman was unable to sell this invention to car manufacturing companies despite its importance, as they believed that it was an invention not worth selling. After the expiration of the patent period in 1920, the manufacture of cars increased significantly Windshield wipers have become one of the necessary spare parts in the car, without which the driver faces great difficulty in wiping the windshield, as they were adopted by Cadillac in its own cars as the first car company to apply Anderson’s invention.",
+        "body_1_2": "What is the best time to change car windshield wipers?",
+        "body_1_3" : "The life span of the windshield wipers is considered the shortest compared to other spare parts, as the German Technical Inspection Authority stated that the windshield wipers are one of the consumable components in the car and must be replaced regularly. They are designed to work for approximately six months after which a decrease in their performance will be noticed during the wiping process.' The glass is due to the wear of the rubber wiper strip, and in most cases it produces a whistling sound during operation as a result of its friction with the glass, which leads to scratching the car’s glass.",
+        "body_1_4": "Flap Tips!",
+        "body_1_5": "Replace windshield wipers twice a year.",
+        "body_1_6": "Fill the windshield wiper fluid frequently.",
+        "body_1_7": "Do not use the wipers while the car windshield is dry.",
+        "body_1_8": "Imagine yourself, dear driver, having been exposed to a sudden rain or dust storm. Your windshield wipers are not working, and the cleaning fluid has also run out! None of the advanced features and technology in your car will be of use to you at that moment, so you must take good care of the windshield wipers. Headlights and replace them regularly to ensure a comfortable ride and clear vision while driving your car."
+}
+},
+"blog_19": {
+    "id": "19",
+    "title": "Revolutionizing Car Parts Shopping Online in Saudi Arabia",
+    "date": "February 28, 2024",
+    "imageUrl": "/images/brands/whyCarPartsOnline.webp",
+    "content": {
+        "intro_1": "In the fast-paced world of today, where technology is constantly evolving, the automotive industry in Saudi Arabia is embracing the digital era with the advent of online car parts shopping. This shift has not only simplified the process of acquiring auto components but has also opened up new possibilities for car enthusiasts and everyday drivers."
+        ,
+        "body_1_1": "The Convenience of Online Car Parts Shopping",
+        "body_1_2": "A World of Options at Your Fingertips",
+        "body_1_3" : "Gone are the days when searching for the right car part involved visiting multiple stores. Now, a vast array of car components is just a click away. Online platforms provide a comprehensive selection, allowing customers to explore and choose the perfect parts for their vehicles, regardless of make or model.",
+        "body_1_4": "Detailed Product Information",
+        "body_1_5": "One of the advantages of online car parts shopping is the availability of detailed product information. Each component comes with specifications, compatibility details, and customer reviews, making it easier for buyers to make informed decisions. This transparency adds a layer of confidence to the purchasing process."
+    }
+},
+"blog_20": {
+    "id": "20",
+    "title": "What is the Suspension System in a Car?",
+    "date": "March 13, 2024",
+    "imageUrl": "/images/brands/whatIsBrakeSystem.webp",
+    "content": {
+    "intro_1": "The Suspension System is the mechanical components that connect the external structure of the car with the tires. Its main function is to maintain the balance and stability of the car by absorbing vibrations caused by industrial bumps, potholes, and uneven road surfaces and turns.",
+    "body_1_1": "Manufacturers continuously improve the suspension system by reducing the number of parts used, selecting lightweight components, and incorporating electronic and electrical parts to make the car smoother on the roads.",
+    "body_1_2": "Types of Suspension System:",
+    "body_1_3": "Independent Suspension System: It provides greater comfort, as when the car encounters a bump, it makes the tires lift the car from only one side since each tire is independent of the remaining tires. This prevents the driver or passengers from feeling the vibrations resulting from the impact.",
+    "body_1_4": "As for the Dependent Suspension System: it lifts the entire car as the tires are not independent and are connected to each other.",
+    "body_1_5": "Components of the Suspension System:",
+    "body_1_6": "Springs:",
+    "body_1_7": "Most cars have coil springs that automatically bend when driving over bumps and potholes to prevent passengers from feeling the impact of shocks.",
+    "body_1_8": "Tires (Wheels):",
+    "body_1_9": "They are the external parts of the suspension system and the only part of the car that touches the road, bearing the brunt of the impact from shocks. Therefore, it is essential to constantly monitor and check the tires and ensure the proper amount of air inside them.",
+    "body_1_10": "Control Arms:",
+    "body_1_11": "They connect the tires to the car structure and vary in shape from one car to another.",
+    "body_1_12": "Shock Absorbers (Struts):",
+    "body_1_13": "Their function is to maintain the alignment of the tires on the road, allowing them to move smoothly and reducing the movement of the springs to prevent the car from swaying. This absorbs and reduces the shocks from bumps, potholes, and uneven road surfaces to maintain the stability and balance of the car and prevent the external structure from colliding with the ground.",
+    "body_1_14": "Car Structure:",
+    "body_1_15": "It is the largest part of the suspension system, carrying the weight of the car in addition to all its components.",
+    "body_1_16": "Front Suspension System Components:",
+    "body_1_17": "These include the balance column leather, the balance nail leather, the control arm leather (inner and outer), and the ball joints.",
+    "body_1_18": "Does the Suspension System Suffer Damage?",
+    "body_1_19": "It should be noted that, like other systems and parts of the car, the suspension system is prone to damage over time, leading to steering system imbalance, tire wear, and other problems that can be serious for the car, driver, and passengers.",
+    "body_1_20": "The suspension system is considered one of the essential parts of the car, absorbing energy from uneven roads and dispersing it to prevent car vibrations. The suspension system also controls the weight of the car, reduces its reaction, and minimizes its sway during turns, thus protecting the car from balance issues and overturning."
+    }
+    },
+    "blog_21": {
+        "id": "21",
+        "title": "What are the reasons for the delay in car engine operation?",
+        "date": "March 24, 2024",
+        "imageUrl": "/images/brands/FireUpDelay.webp",
+        "content": {
+            "intro_1": "We will learn about the malfunctions that cause the engine to delay and the car to start:",
+            "body_1_1": "- Clogging in the injectors:",
+            "body_1_2": "Sometimes the driver may need to press the gasoline pedal several times in a row to deliver a large amount of fuel to the engine and start it. The reason for this is clogging in the gasoline injectors due to accumulation of dust, preventing them from delivering the appropriate amount of fuel to the engine for operation.",
+            "body_1_3": "- Car battery malfunction:",
+            "body_1_4": "Weak battery or a problem with connecting the positive and negative poles make it difficult to start the car.",
+            "body_1_5": "- Fuel pump malfunction:",
+            "body_1_6": "Insufficient fuel reaching the engine results in engine performance issues and delayed startup.",
+            "body_1_7": "- Air filter damage:",
+            "body_1_8": "Dust and dirt accumulation on the air filter leads to clogging of ventilation holes, preventing air from entering to complete the combustion process.",
+            "body_1_9": "- Spark plug damage:",
+            "body_1_10": "Damage to spark plugs or insufficient electricity reaching them makes it difficult for air and fuel to ignite, resulting in engine delay.",
+            "body_1_11": "- Excess air intake:",
+            "body_1_12": "It is observed that insufficient air intake makes combustion difficult, and conversely, excess air in the fuel tube makes it difficult to start the engine.",
+            "body_1_13": "Therefore, it is necessary to perform the necessary maintenance and inspect these parts when experiencing recurring problems with car engine delay."
+        }
+    },
+        "blog_22": {
+            "id": "22",
+            "title": "How to Protect Your Car from Dust in Our Dusty Gulf Region?",
+            "date": "March 28, 2024",
+            "imageUrl": "/images/brands/dustProtection.webp",
+            "content": {
+                "intro_1": "As wind speeds usually increase, they carry large amounts of sand and dust into the atmosphere, forming what is known as sandstorms or dust storms. This phenomenon is prevalent in our region (the Gulf countries) due to its geographical nature, where sandstorms are a part of the climate.",
+                "body_1_1": "One of the things you need to pay attention to in such stormy weather is to protect your car from dust, as dust is one of the main reasons that can cause damage to certain parts of the car. Therefore, it is necessary and important to take some measures to prevent dust from reaching the sensitive parts of the car and thus avoid its negative effects.",
+                "body_1_2": "- Cleaning the car's air filter:",
+                "body_1_3": "The air filter is responsible for protecting the car's engine by purifying the air entering the engine, thus preventing dust and impurities from entering. Therefore, it is better to clean the air filter carefully or replace it after a long period to maintain the engine's operation and performance.",
+                "body_1_4": "- Cleaning the interior AC filter:",
+                "body_1_5": "The primary function of the AC filter is to prevent any dust or dirt from entering the car's interior. When the filter is exposed to a large amount of dust and dirt in dusty conditions while using the AC, dirt accumulates on the filter, significantly affecting the efficiency of the AC and, in turn, affecting the performance of the AC fan. The fan sucks the clogged filter with dirt, increasing its temperature and exposing it to damage.",
+                "body_1_6": "- Cleaning the engine and AC radiators:",
+                "body_1_7": "The engine and AC radiators are exposed to a lot of dirt and dust particles in dusty conditions, which settle between the radiator fins, affecting the efficiency of engine and AC cooling. This, in turn, causes an increase in engine temperature and a decrease in AC cooling. To address this problem, it is recommended to periodically wash the radiator from the outside with a large amount of water to remove dirt and debris from the radiator.",
+                "body_1_8": "- Maintaining the car's glass surfaces:",
+                "body_1_9": "Operating the front (and rear if available) glass surfaces will prevent damage, as these surfaces are made of leather-like materials that are affected by dryness. It is better to operate them from time to time, as not getting water on them will lead to their drying and subsequent damage.",
+                "body_1_10": "- Washing the car from the outside:",
+                "body_1_11": "Make sure to wash your car from the outside regularly, as the accumulation of dust and dirt on the car's exterior surface will cause it to lose its original color over time.",
+                "body_1_12": "- Covering the car:",
+                "body_1_13": "It is better to cover the exterior body of the car when parked for a long period or not used permanently to avoid the accumulation of dust and dirt."
+            }
+        },
+        "blog_23": {
+            "id": "22",
+            "title": "Reasons for Car Deviation from its Path",
+            "date": "April 29, 2024",
+            "imageUrl": "/images/brands/enhraf.webp",
+            "content": {
+            "intro_1": "The steering wheel is one of the most important parts of a car as it directs and controls the car's path. However, drivers may sometimes face the problem of the car deviating to the right or left when they remove their hand from the steering wheel.",
+            "body_1_1": "Let's together explore the most important reasons that lead to the car deviating from its correct path.",
+            "body_1_2": "1- Tire Pressure Measurement:",
+            "body_1_3": "It is important to check the air pressure inside the front tires... If the problem persists, you can switch between the front tires to identify the cause of the deviation... If the problem is solved by changing the tires, this indicates a defect in one of the tires or in the suspension system.",
+            "body_1_4": "2- Use of Inappropriate Tires:",
+            "body_1_5": "Using tires that are too large or too small for the car can cause it to deviate from its path.",
+            "body_1_6": "3- Defect in the Balance of Arms:",
+            "body_1_7": "Failure to properly adjust the balance of the arms leads to steering deviation and consequently deviation of the car's path.",
+            "body_1_8": "4- Defect in the Braking System:",
+            "body_1_9": "The braking system is one of the important systems that ensure the car's safety, so when there is a fault in one of the brake calipers, it will press on the disc more than the opposite caliper, causing a difference in the car's path.",
+            "body_1_10": "5- Problem with the Axle:",
+            "body_1_11": "Choosing the wrong piece for the car may cause some problems in the car... The difference in the shape and design of the axle may not be suitable for your type of car, thus causing the car to vibrate and deviate from its correct path. Sometimes the axle may bend as a result of driving on rough roads and falling into deep potholes or forcefully passing over speed bumps, causing an imbalance in the car and its deviation.",
+            "body_1_12": "6- Damage to the Connecting Piece between the Axle and the Suspension System:",
+            "body_1_13": "Damage to the plastic connecting piece between the axle and the rest of the suspension system may cause steering deviation and cannot be detected except by dismantling and examining it.",
+            "body_1_14": "If you face the problem of the car deviating to the right or left frequently, dear driver, you should investigate the causes that led to the deviation and address them as soon as possible. If the problem persists, it is better to visit an authorized maintenance center to address it in order to avoid other problems that may endanger your car and your life."
+            }
+            }            
+    }

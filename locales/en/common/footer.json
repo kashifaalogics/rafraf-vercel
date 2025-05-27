@@ -1,0 +1,26 @@
+{
+  "aboutUsSection": {
+    "title": "About us",
+    "text": "Passionate about everything related to auto parts & genuine engine oils, Toyota spare parts, Hyundai spare parts, Ford and Chevrolet spare parts, if you didn't find the part or car, contact us on WhatsApp ",
+    "subscribeLabel": "E-mail",
+    "subscribeAction": "Submit"
+  },
+  "informationSection": {
+    "title": "Information",
+    "blog": "Blog",
+    "contactUs": "Contact us",
+    "whoWeAre": "Who we are",
+    "downloadContract": "Download Contract",
+    "privacyPolicy": "Privacy policy",
+    "shipping&Payment": "Shipping & Payment",
+    "warrenty&Returns": "Warrenty & Returns"
+  },
+  "categoriesSection": {
+    "title": "Categories"
+  },
+  "contactsSection": {
+    "title": "Contacts",
+    "liveChat": "Live Chat"
+  },
+  "copyRight": "Rafraf Market © {{date}}. All rights reserved | Developed by Rafraf team"
+}

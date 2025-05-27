@@ -1,0 +1,23 @@
+{
+  "attributes": {
+    "category_id": "Category",
+    "price": "Price",
+    "part_manufacturer_store": "Part Manufacturer",
+    "part_type_new": "Part Type",
+    "featured": "Featured Parts",
+    "name": "Part Name",
+    "position": "Part Position",
+    "part_number_store": "Part Number",
+    "featured0": "No",
+    "featured1": "Yes"
+  },
+  "buyNow": "Buy Now",
+  "addToCart": "Add to Cart",
+  "review": "Reviews",
+  "answeredQuestions": "Answerd questions",
+  "outOfStock": "Out of Stock",
+  "genuine": "Genuine",
+  "aftermarket": "Aftermarket",
+
+  "notifyMeWhenAvailable": "Notify Me When Available"
+}

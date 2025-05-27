@@ -1,0 +1,37 @@
+{
+  "metaTitle": "رفرف لبيع قطع غيار السيارات",
+  "bannerTitle": "تدوِّر قطع غيار؟ .. وصلت",
+  "bannerSubtitle": "الألم نفسه هو الألم نفسه الألم نفسه هو الألم نفسه",
+  "selectionTabByVin": "ابحث برقم الهيكل",
+  "selectionTabByPart": "ابحث بالقطعة",
+  "selectionTabByCarProps": "بخصائص السيارة",
+  "hondaFormRequst": "طلب قطعة هوندا",
+  "mgFormRequst": "طلب قطعة ام جي",
+  "hondaForm": "هوندا",
+  "MGForm": "ام جي",
+  "phoneNumberForm": "رقم الهاتف",
+  "vinForm": "رقم الهيكل (الشاص)",
+  "vinFormPlaceholder": "مكون من 17 رقم وحرف الموجود برخصة السير",
+  "partInfoForm": "تفاصيل القطعة/القطع",
+  "formCaption": "سيتواصل معك فريق رفرف لتزويدك بتوفر وسعر القطعة",
+  "submit": "إرسال الطلب",
+  "exit": "خروج",
+  "successFormSubmission": "تم استلام طلبك بنجاح",
+  "shopByCategory": {
+    "text": "تعرف على البراندات"
+  },
+  "Reviews":{
+    "text": "آراء العملاء"  
+  },
+  "ecksDee":{
+    "text": "احدث المواضيع"
+  },
+  "youtube": {
+    "text": "محتوى رفرف"
+  },
+  "flashSales": {
+    "title": "قطع شعبية",
+    "title_brake_pad": "قطع رائجة",
+    "oils": "زيوت"
+  }
+}

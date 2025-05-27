@@ -1,0 +1,28 @@
+{
+  "login": {
+    "title": "Welcome!",
+    "subtitle": "Sign in to continue"
+  },
+  "signup": {
+    "title": "Welcome!",
+    "subtitle": "Sign up to continue"
+  },
+  "email": "email",
+  "emailError": "please enter a valid email",
+  "password": "password",
+  "passwordError": "please enter a password contains (upper and lower case letter, digit, and special charactar)",
+  "forget": "forget password?",
+  "phoneError": "please enter a valid saudi phone number",
+  "firstname": "First name",
+  "lastname": "Last name",
+  "nameError": "Please enter a valid name",
+  "currentPassword": "Current password",
+  "newPassword": "New password",
+  "resetPasswordRequested": "Reset password link has been sent",
+  "passwordReset": "password has been reset",
+  "passwordCheck": "There was a problem, The password entered is not correct",
+  "phoneNo": "Phone No",
+  "policy": "I'm agreeing to the",
+  "policyText": "terms of service and privacy policy"
+
+}

@@ -1,0 +1,37 @@
+{
+  "metaTitle": "Rafraf autoparts online store",
+  "bannerTitle": "Need Auto Parts?.. You Have Arrived",
+  "bannerSubtitle": "",
+  "selectionTabByVin": "Search by vin",
+  "selectionTabByPart": "shop by parts",
+  "selectionTabByCarProps": "search by car",
+  "hondaFormRequst": "Honda Part Request",
+  "mgFormRequst": "MG Part Request",
+  "hondaForm": "Honda",
+  "MGForm": "MG",
+  "phoneNumberForm": "Phone number",
+  "vinForm": "Vehicle identification number",
+  "vinFormPlaceholder": "17 digits found in the vehicles registration",
+  "partInfoForm": "Part name/ information about the part",
+  "formCaption": "Rafraf team will contact you with the price and availability",
+  "submit": "Submit",
+  "exit": "Exit",
+  "successFormSubmission": "Your form has been submitted successfully",
+  "shopByCategory": {
+    "text": "Know our Brands"
+  },
+  "Reviews": {
+    "text": "Rafraf Reviews"
+  },
+  "ecksDee": {
+    "text": "Hot topics"
+  },
+  "youtube": {
+    "text": "Our Content"
+  },
+  "flashSales": {
+    "title": "Flash Sales",
+    "title_brake_pad": "Featured Products",
+    "oils": "Oils"
+  }
+}

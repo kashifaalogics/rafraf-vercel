@@ -1,0 +1,48 @@
+[
+    {
+        "nameArabic": "جي ام سي",
+        "nameEng": "GMC",
+        "image": "../images/makers/GMC.png"
+    },
+    {
+        "nameArabic": "تويوتا",
+        "nameEng": "Toyota",
+        "image": "../images/makers/toyotaIcon.png"
+    },
+    {
+        "nameArabic": "فورد",
+        "nameEng": "Ford",
+        "image": "../images/makers/ford.png"
+    },
+    {
+        "nameArabic": "هونداي",
+        "nameEng": "Hyundai",
+        "image": "../images/makers/hyundai.png"
+    },
+    {
+        "nameArabic": "شفروليه",
+        "nameEng": "Chevrolet",
+        "image": "../images/makers/Chevrolet.png"
+    },
+    {
+        "nameArabic": "شانجان",
+        "nameEng": "Changan",
+        "image": "../images/makers/CHANGAN.png"
+      },
+      {
+        "nameArabic": "لكزس",
+        "nameEng": "Lexus",
+        "image": "../images/makers/LEXUS.png"
+      },
+      {
+        "nameArabic": "هافال",
+        "nameEng": "Haval",
+        "image": "../images/makers/HAVAL.png"
+      },
+      {
+        "nameArabic": "نيسان",
+        "nameEng": "Nissan",
+        "image": "../images/makers/NISSAN.png"
+      }
+      
+]

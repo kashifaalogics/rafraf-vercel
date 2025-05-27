@@ -1,0 +1,8 @@
+{
+  "login": "successfully logged in",
+  "logout": "Logging out ..",
+  "couponApplied": "coupon has been applied",
+  "couponRemoved": "coupon has been removed",
+  "couponeIsntValid": "The code isn't valid or expired",
+  "sessionExpired": "session expired please login again"
+}

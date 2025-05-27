@@ -1,0 +1,36 @@
+{
+  "title": "Shipping and Payment",
+  "firstparagraph": {
+    "title": "Electronic Payment Policy",
+    "paymentmethod": "What are the accepted payment methods at Rafraf Store?",
+    "paymentmethodan": "To facilitate the purchase process, we allow payments via credit cards, bank transfer,  payments through ApplePay and STCPay.",
+    "banktransfer": "How can I pay via a bank transfer?",
+    "banktransferan": "If you have any technical problem(s) in paying with your credit card or Mada Card, you can submit your payment request and contact Rafraf’s technical support team on WhatsApp to assist your bank transfer payment process.",
+    "safe": "Is It Safe To Pay Via Rafraf.com?",
+    "safean": "To facilitate the purchase process, we allow payments via credit cards, bank transfer,  payments through ApplePay and STCPay."
+  },
+
+  "secondparagraph": {
+    "title": "Shipping Policy Policy.",
+    "shippingcoverage": "Shipping Coverage",
+    "shippingcoveragean": "Shipping services at Rafraf.com cover all major and minor cities and regions of Saudi Arabia.",
+    "shippingduration": "Shipping Duration",
+    "shippingdurationan": "Purchase delivery duration depends on the location of the customer and the shipping company chosen. The shipping process normally ranges from 1 - 5 days, taking into account the official holidays (Fridays, national holidays… etc.). We make every effort to ship the order and deliver it to our valued customers according to the dates that have been agreed upon by voice or writing in our correspondence with them, or during the time period specified on the site. We do not bear responsibility for any shipping delays due to unexpected, out-of-hand circumstances.",
+    "shippingdurationan2": "Note: Car parts that are unavailable in the local market might take longer to be delivered. The expected delivery time for such automotive parts will be estimated for our customers upon contact.",
+    "shippingfees": "Shipping Fees",
+    "shippingfeesan": "Delivery fees are calculated automatically upon completion of the purchase process, based on the size and weight of the shipment."
+  },
+
+  "footer": {
+    "info": "Important information to know.",
+    "privacy_shipping": "We ask our valued customers to also review the privacy policy and payment and shipping policy of the Rafaf online store, and do not forget to follow us on our social media pages:",
+    "inquiry": "Do you have any questions about the warranty, compliance and return terms of the Rafraf Shop?",
+    "contact": "You can always contact us through:",
+    "channels": {
+      "rafraf_app": "Rafraf application  ",
+      "whatsapp": "WhatsApp",
+      "e-mail": "E-mail",
+      "help_center": "Help Center"
+    }
+  }
+}

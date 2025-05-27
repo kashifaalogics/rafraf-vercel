@@ -1,0 +1,8 @@
+{
+  "carBrandLabel": "Brand",
+  "carModelLabel": "Model",
+  "carVinLabel": "Car VIN",
+  "partLabel": "part name or number",
+  "manufacturerYearLabel": "Year",
+  "actionText": "Results"
+}

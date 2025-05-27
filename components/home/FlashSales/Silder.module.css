@@ -1,0 +1,3 @@
+.slider > * > * {
+  @apply pb-20;
+}

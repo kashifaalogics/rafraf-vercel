@@ -1,0 +1,158 @@
+[
+    {
+        "name": "Oil Filters",
+        "id": "9524",
+        "level": 3,
+        "visible": true,
+        "path": "auto-parts/oil-filters",
+        "parentId": "4",
+        "meta": {
+            "title": "Buy Car Oil Filters Parts Online at Best Prices in Saudia - Rafraf",
+            "description": "Online store for car oil filters parts. Rafraf handles all your requirements in oil filter parts with superior quality and best pricing.",
+            "keywords": "فلاتر زيت سيارات, فلاتر زيت, فلتر زيت سيارة"
+        }
+    },
+    {
+        "name": "Oils",
+        "id": "7442",
+        "level": 3,
+        "visible": true,
+        "path": "auto-parts/oils",
+        "parentId": "4",
+        "meta": {
+            "title": "Buy Car Oils Online at Best Prices in Saudia - Rafraf",
+            "description": "Online store for car engine oils. Rafraf handles all your requirements for genuine oils superior quality and best pricing.",
+            "keywords": "زيت سيارات, زيوت سيارات أصلية, زيوت أمريكية أصلية للسيارات"
+        }
+    },
+    {
+        "name": "Suspension & Handling",
+        "id": "7443",
+        "level": 3,
+        "visible": true,
+        "path": "auto-parts/suspensionhandling",
+        "parentId": "4",
+        "meta": {
+            "title": "Buy Car Suspension & Handling Parts Online at Best Prices in Saudia - Rafraf",
+            "description": "Online store for car suspension & handling parts. Rafraf handles all your requirements in suspension parts with superior quality and best pricing.",
+            "keywords": "نظام توجيه وتعليق, نظام توجيه للسيارات, أنظمة توجيه وتعليق للسيارات"
+        }
+    },
+    {
+        "name": "Injection",
+        "id": "7439",
+        "level": 3,
+        "visible": true,
+        "path": "auto-parts/injection",
+        "parentId": "4",
+        "meta": {
+            "title": "Buy Car Injection Parts Online at Best Prices in Saudia - Rafraf",
+            "description": "Online store for car injection parts. Rafraf handles all your requirements in injection parts with superior quality and best pricing.",
+            "keywords": "نظام بنزين واحتراق, نظام بنزين للسيارات, أنظمة بنزين واحتراق للسيارات"
+        }
+    },
+    {
+        "name": "Brakes",
+        "id": "7407",
+        "level": 3,
+        "visible": true,
+        "path": "auto-parts/brakes",
+        "parentId": "4",
+        "meta": {
+            "title": "Buy Car Brakes Parts Online at Best Prices in Saudia - Rafraf",
+            "description": "Online store for car brakes parts. Rafraf handles all your requirements in Engine parts with superior quality and best pricing.",
+            "keywords": "نظام فرامل, أنظمة فرامل, نظام فرامل أصلي"
+        }
+    },
+    {
+        "name": "Transmission & Differential Parts",
+        "id": "7447",
+        "level": 3,
+        "visible": true,
+        "path": "auto-parts/transmissiondifferentialparts",
+        "parentId": "4",
+        "meta": {
+            "title": "Buy Car Transmission & Differential Parts Online at Best Prices in Saudia - Rafraf",
+            "description": "Online store for car transmission & differential parts. Rafraf handles all your requirements in transmission parts with superior quality and best pricing.",
+            "keywords": "ناقل حركة عادي, ناقل حركة أوتوماتيكي, جير عادي, جير أوتوماتيكي"
+        }
+    },
+    {
+        "name": "Factory Wheel",
+        "id": "7437",
+        "level": 3,
+        "visible": true,
+        "path": "auto-parts/factorywheel",
+        "parentId": "4",
+        "meta": {
+            "title": "أفضل أنواع الجنوط والعجلات الأصلية | متجر رفرف الإلكتروني",
+            "description": "لدينا أفضل أنواع الجنوط والعجلات الأصلية والبديلة لجميع أنواع السيارات تصلكم أينما كنتم داخل المملكة العربية السعودية.",
+            "keywords": "جنط سيارة, عجلات سيارة, جنوط وعجلات السيارة"
+        }
+    },
+    {
+        "name": "External & Internal Body",
+        "id": "7433",
+        "level": 3,
+        "visible": true,
+        "path": "auto-parts/externalinternalbody",
+        "parentId": "4",
+        "meta": {
+            "title": "Buy Car External & Internal Body Parts Online at Best Prices in Saudia - Rafraf",
+            "description": "Online store for car body parts. Rafraf handles all your requirements in external & internal body parts with superior quality and best pricing.",
+            "keywords": "هيكل سيارة داخلي, هيكل سيارة خارجي, هيكل سيارة داخلي وخارجي"
+        }
+    },
+    {
+        "name": "Engine Cooling",
+        "id": "7431",
+        "level": 3,
+        "visible": true,
+        "path": "auto-parts/enginecooling",
+        "parentId": "4",
+        "meta": {
+            "title": "Buy Car Engine Cooling Parts Online at Best Prices in Saudia - Rafraf",
+            "description": "Online store for car engine cooling parts. Rafraf handles all your requirements in engine cooling parts with superior quality and best pricing.",
+            "keywords": "نظام تبريد محرك سيارات, أنظمة تبريد أصلية للمحرك, أنظمة تبريد محركات أصلية"
+        }
+    },
+    {
+        "name": "Engine",
+        "id": "7424",
+        "level": 3,
+        "visible": true,
+        "path": "auto-parts/engine",
+        "parentId": "4",
+        "meta": {
+            "title": "Buy Car Engine Parts Online at Best Prices in Saudia - Rafraf",
+            "description": "Online store for car engine parts. Rafraf handles all your requirements in Engine parts with superior quality and best pricing.",
+            "keywords": "محرك سيارة, محرك سيارة أصلي, محرك سيارة بديل"
+        }
+    },
+    {
+        "name": "Electrical",
+        "id": "7409",
+        "level": 3,
+        "visible": true,
+        "path": "auto-parts/electrical",
+        "parentId": "4",
+        "meta": {
+            "title": "Buy Car Electrical Parts Online at Best Prices in Saudia - Rafraf",
+            "description": "Online store for car Electrical parts. Rafraf handles all your requirements in Electrical parts with superior quality and best pricing.",
+            "keywords": "نظام كهرباء, أنظمة كهرباء السيارات, نظام كهرباء سيارات أصلي"
+        }
+    },
+    {
+        "name": "A\\C & Heating",
+        "id": "7405",
+        "level": 3,
+        "visible": true,
+        "path": "auto-parts/acheating",
+        "parentId": "4",
+        "meta": {
+            "title": "Buy Car A\\C & Heating Parts Online at Best Prices in Saudia - Rafraf",
+            "description": "Online store for car A\\C & heating parts. Rafraf handles all your requirements in A\\C & heating parts with superior quality and best pricing.",
+            "keywords": "أنظمة تكييف, أنظمة تسخين, أنظمة تكييف وتسخين"
+        }
+    }
+]

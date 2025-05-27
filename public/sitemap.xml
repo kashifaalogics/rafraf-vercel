@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <sitemap>
+    <loc>https://rafraf.com/parts-sitemap-831.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://rafraf.com/cars-sitemap-831.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://rafraf.com/category-sitemap-831.xml</loc>
+  </sitemap>
+    <sitemap>
+    <loc>https://rafraf.com/static-pages-sitemap-831.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://rafraf.com/youtube-sitemap-831.xml</loc>
+</sitemap>
+</sitemapindex>

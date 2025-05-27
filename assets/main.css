@@ -1,0 +1,37 @@
+@import "./base.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Apple";
+    src: url(./fonts/ArbFONTS-ArabicUIText.woff2) format("woff2");
+  }
+}
+
+@import "animate.css";
+
+/* Hide scrollbar for Chrome */
+.noScrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.noScrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.productCardVendorLogo{
+  min-height: 30px;
+}
+
+.min-height {
+  /* min-height: 92.75vh; */
+}
+
+.slick-slider {
+  min-height: 80px !important;
+  margin-top: 60px !important;
+}

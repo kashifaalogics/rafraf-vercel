@@ -1,0 +1,101 @@
+Sitemap: sitemap.xml
+
+
+Disallow: /ar/checkout/
+Disallow: /ar/onestepcheckout/
+Disallow: /ar/customer/
+Disallow: /ar/customer/account/
+Disallow: /ar/customer/account/login/
+Disallow: /ar/customer/account/login*
+Disallow: /ar/stores/store/redirect/___store/en/*
+Disallow: /ar/stores/*
+Disallow: /ar/cartquickpro/
+Disallow: /ar/cartquickpro/*
+Disallow: /ar/productalert/
+Disallow: /ar/productalert/*
+
+Disallow: /en/checkout/
+Disallow: /en/onestepcheckout/
+Disallow: /en/customer/
+Disallow: /en/customer/account/
+Disallow: /en/customer/account/login/
+Disallow: /en/customer/account/login*
+Disallow: /en/stores/store/redirect/___store/ar/*
+Disallow: /en/stores/*
+Disallow: /en/cartquickpro/
+Disallow: /en/cartquickpro/*
+Disallow: /en/productalert/
+Disallow: /en/productalert/*
+
+Disallow: /checkout/
+Disallow: /onestepcheckout/
+Disallow: /customer/
+Disallow: /customer/account/
+Disallow: /customer/account/login/
+Disallow: /customer/account/login*
+Disallow: /stores/store/redirect/___store/ar/*
+Disallow: /stores/*
+Disallow: /cartquickpro
+Disallow: /cartquickpro/*
+Disallow: /productalert
+Disallow: /productalert/*
+
+
+#Default Instructions
+
+Disallow: /lib/
+Disallow: /*.php$
+Disallow: /pkginfo/
+Disallow: /report/
+Disallow: /var/
+Disallow: /catalog/
+Disallow: /catalog/*
+Disallow: /customer/
+Disallow: /sendfriend/
+Disallow: /review/
+Disallow: /*SID=
+
+
+#Disallow Catalog Search Pages
+
+Disallow: /catalogsearch/
+Disallow: /catalog/product_compare/
+Disallow: /catalog/category/view/
+Disallow: /catalog/product/view/
+Disallow: /*?dir*
+Disallow: /*?dir=desc
+Disallow: /*?dir=asc
+Disallow: /*?limit=all
+Disallow: /*?mode*
+
+Disallow: /*?oem*
+Disallow: /*?amp*
+
+Disallow: /ar/*price/*
+Disallow: /en/*price/*
+Disallow: /catalogsearch/*
+
+Disallow: /*referer/*
+Disallow: /ar/catalog/product_compare/*
+Disallow: /en/catalog/product_compare/*
+Disallow: /question/product/listAjax/*
+
+Disallow: /ar/catalogsearch/result/?q=*
+Disallow: /en/catalogsearch/result/?q=*
+
+Noindex: /ar/*price/*
+Noindex: /en/*price/*
+Noindex: /*?oem*
+Noindex: /catalogsearch/*
+Noindex: /*referer/*
+Noindex: /ar/stores/store/redirect/___store/en/*
+Noindex: /en/stores/store/redirect/___store/ar/*
+Noindex: /ar/cartquickpro/
+Noindex: /ar/cartquickpro/*
+Noindex: /ar/productalert/
+Noindex: /ar/productalert/*
+Noindex: /en/cartquickpro/
+Noindex: /en/cartquickpro/*
+Noindex: /en/productalert/
+Noindex: /en/productalert/*
+Noindex: /*?amp*

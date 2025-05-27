@@ -1,0 +1,23 @@
+{
+  "attributes": {
+    "category_id": "التصنيف",
+    "price": "السعر",
+    "part_manufacturer_store": "مصنّع القطعة",
+    "part_type_new": "نوع القطعة",
+    "featured": "القطع المميزة",
+    "name": "الاسم",
+    "position": "موقع القطعة",
+    "part_number_store": "رقم القطعة",
+    "featured0": "لا",
+    "featured1": "نعم"
+  },
+  "buyNow": "اشترِ الآن",
+  "addToCart": "أضف إلى السلة",
+  "review": "المراجعات",
+  "answeredQuestions": "الأسئلة المجابة",
+  "outOfStock": "نفذت الكمية",
+  "genuine": "أصلي",
+  "aftermarket": "بديلة",
+
+  "notifyMeWhenAvailable": "أبلغني عند التوفر"
+}

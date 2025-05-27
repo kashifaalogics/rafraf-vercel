@@ -2,9 +2,6 @@
   "name": "ecommerce-rafraf",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": "16.x"
-  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -56,6 +53,7 @@
     "swr": "^2.2.4",
     "tailwindcss-rtl": "^0.8.0",
     "urql": "^4.0.5",
+    "yarn": "^1.22.22",
     "youtube": "^0.1.0",
     "zustand": "^4.4.1"
   },

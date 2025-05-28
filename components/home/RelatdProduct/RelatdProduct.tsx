@@ -38,7 +38,7 @@ const RelatdProduct: FunctionComponent<Props> = ({ products, title, routerId }) 
   const [avaliableProducts, setAvaliableProducts] = useState([]) as any
   const [isLoad, setIsLoad] = useState(true);
   // console.log("Before Useffect:> ", products);
-  
+
   useEffect(() => {
     if(routerId !== "parts/7442") {
         setAvaliableProducts(products)
@@ -50,46 +50,42 @@ const RelatdProduct: FunctionComponent<Props> = ({ products, title, routerId }) 
             return p
           }
         })
-      
-        setAvaliableProducts(filtered.slice(0, 8))      
+
+        setAvaliableProducts(filtered.slice(0, 8))
         const timer = setTimeout(() => {
             setShowSVG(true);
             }, 4000);
             return () => clearTimeout(timer);
-        }, [products])
+        }, [products, routerId])
 
     useEffect(()=>{
       if (avaliableProducts.length > 0) {
         setIsLoad(false);
       }
     },[avaliableProducts])
-        
-      
-        
-        
 
-  if (breakpoint === "sm") {
-    return (
-      <>
-        <div className="mb-1">
-          <div className="flex justify-between items-center gap-6">
-            <H2>{title}</H2>
-            {/*  */}
-          </div>
+    if (breakpoint === "sm") {
+      return (
+        <>
+          <div className="mb-1">
+            <div className="flex justify-between items-center gap-6">
+              <H2>{title}</H2>
+              {/*  */}
+            </div>
 
-          <div
-            className="flex flex-wrap gap-2 py-6"
-          >
-            {avaliableProducts.map((p: any) => (
-              <div className="flex-1" key={p.id}>
-                <RelatedProductCard product={p} />
-              </div>
-            ))}
+            <div
+              className="flex flex-wrap gap-2 py-6"
+            >
+              {avaliableProducts.map((p: any) => (
+                <div className="flex-1" key={p.id}>
+                  <RelatedProductCard product={p} />
+                </div>
+              ))}
+            </div>
           </div>
-        </div>
-      </>
-    );
-  } else {
+        </>
+      );
+    } else {
     return (
       <>
         <div className="my-28">
@@ -127,7 +123,7 @@ const RelatdProduct: FunctionComponent<Props> = ({ products, title, routerId }) 
           </div>
           {
             <>
-              {isLoad && 
+              {isLoad &&
               <Loading />
               }
               <Slider
@@ -145,13 +141,13 @@ const RelatdProduct: FunctionComponent<Props> = ({ products, title, routerId }) 
               return(
                 <RelatedProductCard key={p.id} product={p} />
               )
-            }) } 
+            }) }
           </Slider>
             </>
-            
-            
+
+
           }
-          
+
         </div>
       </>
     );

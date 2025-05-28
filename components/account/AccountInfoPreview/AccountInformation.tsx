@@ -21,10 +21,10 @@ interface Props {
 interface adress {
 city: string
 country_code: string
-default_shipping : boolean 
+default_shipping : boolean
 firstname: string
 lastname: string
-street: object 
+street: object
 telephone: number
 postcode: string
 }
@@ -38,12 +38,12 @@ const AccountInfoPreview: FunctionComponent<Props> =  ({
 
   const [addressData, setaddressData] = useState({
     city: "",
-    default_shipping : '', 
+    default_shipping : '',
     firstname: '',
     lastname: '',
-    street: '', 
-    postcode: '', 
-    country_code: '', 
+    street: '',
+    postcode: '',
+    country_code: '',
     telephone: ''
   });
 
@@ -100,16 +100,16 @@ const AccountInfoPreview: FunctionComponent<Props> =  ({
         const data = await res.json();
         const array = {
           city: data.data.customer.addresses[0].city,
-          default_shipping : data.data.customer.addresses[0].default_shipping, 
+          default_shipping : data.data.customer.addresses[0].default_shipping,
           firstname: data.data.customer.addresses[0].firstname,
           lastname: data.data.customer.addresses[0].lastname,
-          street: data.data.customer.addresses[0].street, 
-          country_code: data.data.customer.addresses[0].country_code, 
-          postcode: data.data.customer.addresses[0].postcode, 
+          street: data.data.customer.addresses[0].street,
+          country_code: data.data.customer.addresses[0].country_code,
+          postcode: data.data.customer.addresses[0].postcode,
           telephone: data.data.customer.addresses[0].telephone
         }
         setaddressData(array);
-        console.log("render data", addressData);
+          console.log("render data", array);
         return data;
       } catch (e) {
         console.log("ERROR 500");
@@ -124,7 +124,11 @@ const AccountInfoPreview: FunctionComponent<Props> =  ({
     setmobile_number({ value: customer?.mobile_number, valid: true })
     setEmail({ value: customer?.email, valid: true });
   }, [customer]);
-  
+
+
+  useEffect(() => {
+    console.log("render data", addressData);
+  }, [addressData]);
 
   const validForm = useMemo<boolean>(
     () =>
@@ -192,9 +196,9 @@ const AccountInfoPreview: FunctionComponent<Props> =  ({
                       <>
                         <p>{addressData.firstname} {addressData.lastname}</p>
                         <p>{addressData.street}</p>
-                        <p>{addressData.city} {addressData.postcode}</p>  
-                        <p>{addressData.country_code}</p>  
-                        <p>{addressData.telephone}</p>  
+                        <p>{addressData.city} {addressData.postcode}</p>
+                        <p>{addressData.country_code}</p>
+                        <p>{addressData.telephone}</p>
                       </>
                     )
                     : "You have not set a default shipping address."}
@@ -215,9 +219,9 @@ const AccountInfoPreview: FunctionComponent<Props> =  ({
                       <>
                       <p>{addressData.firstname} {addressData.lastname}</p>
                       <p>{addressData.street}</p>
-                      <p>{addressData.city} {addressData.postcode}</p>  
-                      <p>{addressData.country_code}</p>  
-                      <p>{addressData.telephone}</p>  
+                      <p>{addressData.city} {addressData.postcode}</p>
+                      <p>{addressData.country_code}</p>
+                      <p>{addressData.telephone}</p>
                     </>
                     )
                     : "You have not set a default shipping address."}

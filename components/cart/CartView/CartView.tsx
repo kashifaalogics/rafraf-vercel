@@ -177,7 +177,7 @@ const CartView: FunctionComponent<Props> = ({}) => {
     } else {
       applyCoupon(couponCode);
     }
-  }, [couponCode]);
+  }, [couponCode, applyCoupon]);
 
   useEffect(() => {
     if (!cart.appliedCoupons) return;
@@ -199,10 +199,9 @@ const CartView: FunctionComponent<Props> = ({}) => {
     [setShippingMethodOnCart]
   );
 
-  const updateCouponCode = useCallback(
-    debounce<string, void>((e) => setCouponCode(e), 1000),
-    [debounce, setCouponCode]
-  );
+  const updateCouponCode = useMemo(() => debounce((e: string) => {
+    setCouponCode(e);
+  }, 1000), [setCouponCode]);
 
   useEffect(() => {
     const address = cart.shippingAddresses?.length
@@ -223,7 +222,7 @@ const CartView: FunctionComponent<Props> = ({}) => {
         setRelatedProducts(x.product.related_products);
       }
     });
-  }, [cartItems]);
+  }, [cartItems, relatedProducts.length]);
 
   const shippingCost = useMemo(
     () => shippingAddress?.selectedShippingMethod?.amount || null,

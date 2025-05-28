@@ -48,13 +48,13 @@ export default function CheckoutResult({
 
   useEffect(() => {
     cart.reset();
-  }, []);
+  }, [cart]);
 
   return (
     <Container style={{ backgroundColor: "#FAFAFA" }}>
       <div className="flex flex-col justify-center items-center p-10 gap-10">
         <div className="h-28 w-48 relative">
-          <Image src="/images/payment-success.png" />
+          <Image src="/images/payment-success.png" alt="Payment Success"/>
         </div>
 
         <H3 className="text-green-700">{t("checkout:success")}</H3>

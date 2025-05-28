@@ -36,7 +36,7 @@ const LoginForm: FunctionComponent<Props> = ({
     if (loggedIn) {
       onLoginComplete();
     }
-  }, [loggedIn]);
+  }, [loggedIn, onLoginComplete]);
 
   const validForm = useMemo<boolean>(
     () =>
@@ -55,7 +55,7 @@ const LoginForm: FunctionComponent<Props> = ({
       setWrongInput(true);
     }
   };
-  
+
   return (
     <div className="flex flex-col items-center">
       <H3 className="text-blue">{t("common/account:login.title")}</H3>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from "@components/ui";
+import { Link, Image } from "@components/ui";
 import { BlogArtical, BlogMini } from "@components/common";
 import { A, H5 } from "@components/typography";
 import { useRouter } from "next/router";
@@ -19,7 +19,7 @@ function BlogRow(props: Props) {
   const { t } = useTranslation();
   const router = useRouter()
   const { breakpoint } = useViewport();
-  
+
   return (
     <div className='sm:my-4 md:my-0'>
         <Link href={`/blog/${props.id}`}>
@@ -30,7 +30,7 @@ function BlogRow(props: Props) {
                     height: breakpoint === "sm"? "210px" : "220px",
                 }}
                 >
-                <img
+                <Image
                     src={props.image}
                     alt="blog-photo"
                 />

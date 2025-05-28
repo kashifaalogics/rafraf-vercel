@@ -134,7 +134,7 @@ const CreditAddressForm: FunctionComponent<Props> = ({
     }
     return true
   }
-  
+
   useEffect(() => {
     setGuestEmail(cart.email || "");
   }, [cart.email]);
@@ -183,7 +183,11 @@ const CreditAddressForm: FunctionComponent<Props> = ({
     setValidShippingForm(isValid);
     updateFormValidity(submitBtn && dirtyBit);
   }, [
+    loggedIn,
+    updateFormValidity,
+    submitBtn,
     emailExist,
+    countryStates,
     shippingMethod,
     dirtyBit,
     firstname,
@@ -197,7 +201,7 @@ const CreditAddressForm: FunctionComponent<Props> = ({
     shippingAddress?.selectedShippingMethod?.carrierCode,
   ]);
 
-  
+
   useEffect(() => {
     console.log("customer:", customer)
 
@@ -239,7 +243,7 @@ const CreditAddressForm: FunctionComponent<Props> = ({
         setPaymentMethodOnCart("moyasar_credit_card")
       }
     }
-  }, [customer]);
+  }, [customer, applePayAvailable, cart, setShippingAddressOnCart, setPaymentMethodOnCart, setShippingMethodOnCart]);
 
   // Address form submission
   const handleFormSubmit = async (event: FormEvent<HTMLFormElement>) => {
@@ -386,7 +390,7 @@ const CreditAddressForm: FunctionComponent<Props> = ({
 
 
         if(!data.data.customer.addresses.length) return
-        
+
         const array = {
           street: data.data.customer.addresses[0].street,
           addressId: data.data.customer.addresses[0].id,

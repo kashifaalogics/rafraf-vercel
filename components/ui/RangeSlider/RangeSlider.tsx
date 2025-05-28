@@ -21,7 +21,7 @@ const RangeSlider: FunctionComponent<Props> = ({
       from: String(selectedMin || 0),
       to: String(selectedMax || 1000000),
     });
-  }, [selectedMin, selectedMax]);
+  }, [selectedMin, selectedMax, onChange]);
 
   return (
     <div>

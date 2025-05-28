@@ -10,7 +10,7 @@ import { useEffectV2, useSearchEngine } from "@common/hooks";
 import { ProductCard, ProductCardSkeleton } from "@components/product";
 import { ProductsList } from "@common/types/product";
 import { CurrencyEnum } from "@common/types/currency";
-import { Container, Accordion, Button } from "@components/ui";
+import { Container, Accordion, Button, Image } from "@components/ui";
 import useLangDirection from "@utils/language/useLangDirection";
 import { Subtitle } from "@components/typography";
 import useTranslation from "next-translate/useTranslation";
@@ -108,7 +108,7 @@ export default function Search() {
     // }
     // console.log(sessionStartTime)
     // console.log(sessionId, sessionIndex, platform  )
-  }, [router.query]);
+  }, [router.query, setPageSize]);
   result.map((r: any) => {
     if (r.hasOwnProperty("image")) {
       r.Picture = r.image.url
@@ -391,7 +391,7 @@ export default function Search() {
                     {t("product/listing:productNotFound")}
                   </div>
                   <div>
-                    <img src="/images/notFoundImage.svg" alt="" />
+                    <Image src="/images/notFoundImage.svg" alt="" />
                   </div>
                 </div>
               ) : (

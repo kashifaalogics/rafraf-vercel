@@ -1,5 +1,6 @@
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
+import { Image } from "@components/ui";
 
 function Timer() {
   const [days, setDays] = useState(0);
@@ -32,17 +33,17 @@ function Timer() {
         className="relative inline-flex items-center px-4 sm:px-96 py-4 sm:py-2.5 text-lg sm:text-sm font-medium text-center text-white bg-white rounded-lg focus:ring-1 bg-gradient-to-r from-red-700 via-blue-800 to-red-700 text-blue shadow-2xl bg-white-600"
         onClick={() => router.push("/featured/acdelco")}
       >
-        <img
+        <Image
           className="absolute w-12 top-0 left-1 -mt-10 sm:-mt-6 animate-pulse"
           src={"/images/fire.webp"}
           alt=""
         />
-        <img
+        <Image
           className="hidden sm:block w-1/4 sm:w-1/5 absolute top-1/2 left-1/3 transform -translate-x-1/2 -translate-y-1/2 sm:w-32"
           src="/images/fs.webp"
           alt=""
         />
-        <img
+        <Image
           className="sm:hidden w-1/4 sm:w-1/5 absolute top-0 right-0 transform translate-x-1/2 -translate-y-1/2 sm:w-32"
           src="/images/fs.webp"
           alt=""

@@ -65,7 +65,7 @@ function Blog({
                       {/* blog_4.content */}
 
                       <div className="my-10">
-                        <img
+                        <Image
                           src={t("static/blogs:blog_22.imageUrl")}
                           alt="blog-image"
                         />
@@ -214,13 +214,13 @@ function Blog({
                       style={{
                         boxShadow: "0px 2px 6px rgba(0, 0, 0, 0.17)",
                         width: "750px",
-                        height: "auto", 
+                        height: "auto",
                         marginBottom: "22px",
                       }}
                     >
                       <div className="my-8 mx-8">
                         <div className="my-10">
-                          <img
+                          <Image
                             src={t("static/blogs:blog_22.imageUrl")}
                             alt="blog-image"
                           />

@@ -30,22 +30,23 @@ const WhatsAppSticky: FunctionComponent<Props> = (props) => {
           behavior: "Whatsapp",
         });
       }}
-      
+
     >
-      
+
       <A
         href={WHATSAPP_LINK}
         target="_blank"
         title="تواصل على الواتسآب"
-        
+
       >
-        <div className="relative w-full h-full animate-bounce" 
+        <div className="relative w-full h-full animate-bounce"
         // onClick={() => recordAPI({ behaviour: "whatsapp", source: "navbar"})}
         >
-          <Image src={"/images/whatsapp.webp"} />
+          <Image src={"/images/whatsapp.webp"}
+          alt="" />
         </div>
       </A>
-      
+
     </div>
   );
 };

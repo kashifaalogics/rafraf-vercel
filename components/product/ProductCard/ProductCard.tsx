@@ -17,6 +17,7 @@ import { useSelector } from "react-redux";
 import { getConfig } from "@framework/api/config";
 import { useState } from "react";
 import TagManager from "react-gtm-module";
+import { Image } from "@components/ui";
 
 interface Props {
   product: Product;
@@ -140,7 +141,7 @@ const ProductCardGrid: FunctionComponent<Props> = ({
           {product.manufacturer ? (
             <>
               <div className="col-span-2 productCardVendorLogo">
-                <img
+                <Image
                   src={
                     IMAGES_STORAGE_URL +
                     manuImg[product.manufacturer as keyof typeof manuImg]
@@ -204,7 +205,7 @@ const ProductCardGrid: FunctionComponent<Props> = ({
                                   }
                                 }
                               }
-                        
+
                               }
                             }
                           }
@@ -272,7 +273,7 @@ const ProductCardGrid: FunctionComponent<Props> = ({
                                   }
                                 }
                               }
-                        
+
                               }
                             }
                           }
@@ -438,7 +439,7 @@ const ProductCard: FunctionComponent<Props> = ({
         onBuyNow(p);
       }
     },
-    [addToCart, onBuyNow]
+    [addToCart, onBuyNow, router]
   );
 
   if (variant === "gird") {

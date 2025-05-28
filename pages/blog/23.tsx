@@ -65,7 +65,7 @@ function Blog({
                       {/* blog_4.content */}
 
                       <div className="my-10">
-                        <img
+                        <Image
                           src={t("static/blogs:blog_23.imageUrl")}
                           alt="blog-image"
                         />
@@ -223,7 +223,7 @@ function Blog({
                     >
                       <div className="my-8 mx-8">
                         <div className="my-10">
-                          <img
+                          <Image
                             src={t("static/blogs:blog_23.imageUrl")}
                             alt="blog-image"
                           />

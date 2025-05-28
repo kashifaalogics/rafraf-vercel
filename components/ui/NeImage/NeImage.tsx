@@ -28,7 +28,7 @@ const NeImage: FunctionComponent<Props> = ({
         setImgSrc(fallbackSrc);
       }
     }
-  }, [imgSrc]);
+  }, [imgSrc, fallbackSrc]);
 
   return (
     <span
@@ -54,7 +54,7 @@ const NeImage: FunctionComponent<Props> = ({
         setImgSrc(fallbackSrc);
       }}
     />
-      {/* <img
+      {/* <Image
         alt={rest.alt || imgSrc.toString()}
         src={imgSrc as string}
         decoding="async"

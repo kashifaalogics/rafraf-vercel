@@ -12,6 +12,7 @@ import Maintenance from "components/Maintenance";
 import TagManager from "react-gtm-module";
 // export const GTM_ID = process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID;
 
+
 // Global CSS
 import "../pages/account/my-account.css";
 

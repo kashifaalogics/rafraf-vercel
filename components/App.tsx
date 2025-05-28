@@ -33,7 +33,7 @@ const App: FunctionComponent<AppPropsWithLayout> = ({
             className="relative h-full w-full animate-bounce"
             style={{ maxWidth: "100px", minHeight: "100px" }}
           >
-            <Image src={logo} layout="fill" objectFit="contain" />
+            <Image src={logo} layout="fill" objectFit="contain" alt="logo"/>
           </div>
           <Loading size={40} />
         </div>

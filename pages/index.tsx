@@ -132,7 +132,7 @@ export default function Home({
             target,
             status,
             created_time
-          
+
           }
         }
         }
@@ -337,7 +337,7 @@ export default function Home({
 
                     {/* {imageSrc && <Image height="600" width="600" src={imageSrc} alt="" />} */}
                     <a href={hrefSrc}>
-                      <img src={imageSrc} alt="" />
+                      <Image src={imageSrc} alt="" />
                     </a>
                   </div>
                 </div>
@@ -378,7 +378,7 @@ export default function Home({
                       l171.117-171.12l171.118,171.12c2.913,2.911,6.866,4.55,10.993,4.55c4.128,0,8.081-1.639,10.992-4.55l32.709-32.719
                       c6.074-6.075,6.074-15.909,0-21.986L285.08,230.397z"/>
                     </svg>
-                    <img src={imageSrc} alt="" />
+                    <Image src={imageSrc} alt="" />
                   </div>
                 </div>
             </div>
@@ -538,7 +538,7 @@ Click={() => sliderRef.current?.slickNext()} className="rotateNext shadow-md rou
       </Container>
 
       <a id="wablock" className="flex items-center justify-center mb-6 md:mb-0">
-        <img
+        <Image
           src="../images/home/WABlock.webp"
           alt=""
           onClick={() => {
@@ -622,7 +622,7 @@ Click={() => sliderRef.current?.slickNext()} className="rotateNext shadow-md rou
       {/* <ACDelco products={products}/> */}
 
       {/* </Container> */}
-      {/*   
+      {/*
       <Container el="section">a
       <HomeCategories categories={categories} />
     </Container> */}

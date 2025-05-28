@@ -58,7 +58,7 @@ export async function getStaticProps(
       </svg>
     );
   };
-  
+
   const TwitterFilledIcon = ({ color = "#3C425A", className = "" }) => {
     return (
       <svg
@@ -77,7 +77,7 @@ export async function getStaticProps(
       </svg>
     );
   };
-  
+
   const InstagramFilledIcon = ({ color = "#3C425A", className = "" }) => {
     return (
       <svg
@@ -98,7 +98,7 @@ export async function getStaticProps(
       </svg>
     );
   };
-  
+
   const YoutubeFilledIcon = ({ color = "#3C425A", className = "" }) => {
     return (
       <svg
@@ -117,7 +117,7 @@ export async function getStaticProps(
       </svg>
     );
   };
-  
+
   const socialLinks = [
     {
       title: "Facebook",
@@ -140,7 +140,7 @@ export async function getStaticProps(
       link: "https://www.youtube.com/channel/UCDoN5wHMsWCeKijnlhnzHxA",
     },
   ];
-  
+
 
 function Blog({
   categories,
@@ -148,7 +148,7 @@ function Blog({
   const { t } = useTranslation();
 
   return (
-    <div>    
+    <div>
       {/* Mobile Display */}
       <div className="relative block md:hidden">
         <Container>
@@ -172,7 +172,7 @@ function Blog({
                         <div>{t("static/blogs:blog_2.body.intro_2")}</div>
 
                         <div className="my-10">
-                          <img
+                          <Image
                             src={t("static/blogs:blog_2.imageUrl")}
                             alt="blog-image"
                           />
@@ -245,9 +245,9 @@ function Blog({
                             السعودي من <a href="">الزيوت </a>{" "}
                             <a href="">والفلاتر الأمريكية الأصلية</a>.
                           </div>
-                        
+
                       </div>
-                    
+
                   </div>
                 </P>
               </div>
@@ -310,7 +310,7 @@ function Blog({
                         <div>{t("static/blogs:blog_2.body.intro_2")}</div>
 
                         <div className="my-10">
-                          <img
+                          <Image
                             src={t("static/blogs:blog_2.imageUrl")}
                             alt="blog-image"
                           />
@@ -383,7 +383,7 @@ function Blog({
                             السعودي من <a href="">الزيوت </a>{" "}
                             <a href="">والفلاتر الأمريكية الأصلية</a>.
                           </div>
-                        
+
                       </div>
                     </div>
                   </Container>

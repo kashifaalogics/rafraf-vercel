@@ -31,9 +31,7 @@ const SelectShippingMethod: FunctionComponent<Props> = (props) => {
       });
       closeModal();
       rafrafToast(t("common:saved"));
-    },
-    [setShippingMethodOnCart]
-  );
+    },[setShippingMethodOnCart, closeModal, t]);
 
   return (
     <div className="flex flex-col my-4">

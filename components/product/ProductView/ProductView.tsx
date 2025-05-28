@@ -148,7 +148,7 @@ const ProductView: FunctionComponent<Props> = ({ product, alternatives }) => {
                 >
                   <div>{t("product:notifyMeWhenAvailable")}</div>
                   <div>
-                    <img className="w-6 mx-1" src={"/images/whatsapp.webp"} />
+                    <Image className="w-6 mx-1" src={"/images/whatsapp.webp"} alt=""/>
                   </div>
                 </A>
               </>
@@ -217,7 +217,7 @@ const ProductView: FunctionComponent<Props> = ({ product, alternatives }) => {
                     {t("product/view:manufacturer")}
                   </Label>
                   <div className="col-span-2">
-                    <img
+                    <Image
                       src={
                         IMAGES_STORAGE_URL +
                         manuImg[product.manufacturer as keyof typeof manuImg]

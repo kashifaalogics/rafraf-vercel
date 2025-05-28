@@ -1,7 +1,7 @@
 import { Product } from "@common/types/product";
 import { FunctionComponent, useCallback, useEffect } from "react";
 
-import { NeImage, Loading } from "@components/ui";
+import { NeImage, Loading, Image } from "@components/ui";
 import { Link } from "@components/ui";
 import { A, Caption1, H5, Label, Subtitle } from "@components/typography";
 import useLangDirection from "@utils/language/useLangDirection";
@@ -267,7 +267,7 @@ const ProductCardGrid: FunctionComponent<Props> = ({
           {product.manufacturer ? (
             <>
               <div className="col-span-2 productCardVendorLogo">
-                <img
+                <Image
                   src={
                     IMAGES_STORAGE_URL +
                     manuImg[product.manufacturer as keyof typeof manuImg]
@@ -331,7 +331,7 @@ const ProductCardGrid: FunctionComponent<Props> = ({
                                 }
                               }
                             }
-                      
+
                             }
                           }
                         }
@@ -400,7 +400,7 @@ const ProductCardGrid: FunctionComponent<Props> = ({
                                 }
                               }
                             }
-                      
+
                             }
                           }
                         }
@@ -570,7 +570,7 @@ const RelatedProductCard: FunctionComponent<Props> = ({
         onBuyNow(p);
       }
     },
-    [addToCart, onBuyNow]
+    [addToCart, onBuyNow, router]
   );
 
   if (variant === "gird") {

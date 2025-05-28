@@ -90,7 +90,7 @@ export const UIProvider: FunctionComponent = ({ children }) => {
       closeSidebar,
       ...state,
     };
-  }, [state.isModalOpen, state.isSidebarOpen, state.modalContent]);
+  }, [state]);
 
   return <UIContext.Provider value={value}>{children}</UIContext.Provider>;
 };

@@ -57,6 +57,7 @@ const OrderSummary: FunctionComponent<Props> = ({ cart, loading }: Props) => {
                       src={`https://s3.me-south-1.amazonaws.com/images.rafraf.com/${ci.product.image.url}`}
                       layout="fill"
                       objectFit="scale-down"
+                      alt="Product Image"
                     />
                   </div>
 
@@ -83,11 +84,11 @@ const OrderSummary: FunctionComponent<Props> = ({ cart, loading }: Props) => {
           </div>
           <div className="border-t-2 py-3 px-8 text-sm flex justify-between">
             <div>{t("checkout:orderSummary.shipping")}: </div>
-            <div>              
-              {address?.selectedShippingMethod?.amount? 
+            <div>
+              {address?.selectedShippingMethod?.amount?
                 address?.selectedShippingMethod?.amount?.value: " "}{" "}
 
-              {address?.selectedShippingMethod?.amount? 
+              {address?.selectedShippingMethod?.amount?
                 address?.selectedShippingMethod?.amount?.currencyCode: " "}
             </div>
           </div>

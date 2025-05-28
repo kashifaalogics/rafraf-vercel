@@ -26,7 +26,7 @@ export async function getStaticProps(
   try {
     const config = getConfig({ locale: context.locale || "ar" });
     const categories = getStaticCategories({locale: config.locale})
-    
+
     return {
       props: {
         categories,
@@ -207,7 +207,7 @@ export default function AboutUs({
             <div className="flex flex-wrap my-16 gap-8">
               <div className="" style={{ width: "458px" }}>
                 <div className="relative">
-                  <img src="/images/aboutus/oil.jpg" alt="" />
+                  <Image src="/images/aboutus/oil.jpg" alt="" />
                 </div>
               </div>
 

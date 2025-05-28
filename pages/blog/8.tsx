@@ -44,7 +44,7 @@ function Blog({
   const { t } = useTranslation();
 
   return (
-    <div>    
+    <div>
       {/* Mobile Display */}
       <div className="relative block md:hidden">
         <Container>
@@ -67,7 +67,7 @@ function Blog({
                         {/* blog_4.content */}
 
                         <div className="my-10">
-                            <img
+                            <Image
                                 src={t("static/blogs:blog_8.imageUrl")}
                                 alt="blog-image"
                             />
@@ -84,7 +84,7 @@ function Blog({
                             <li className="pb-7">{t("static/blogs:blog_8.content.body_1_5")}</li>
                             <li className="pb-7">{t("static/blogs:blog_8.content.body_1_6")}</li>
                             </ul>
-                            
+
                             <H4 className="pb-3">{t("static/blogs:blog_8.content.head_2")}</H4>
                             <div className="pb-7">{t("static/blogs:blog_8.content.body_2")}</div>
 
@@ -194,7 +194,7 @@ blog_8
                     >
                       <div className="my-8 mx-8">
                         <div className="my-10">
-                            <img
+                            <Image
                                 src={t("static/blogs:blog_8.imageUrl")}
                                 alt="blog-image"
                             />
@@ -227,7 +227,7 @@ blog_8
                             <div className="pb-7">{t("static/blogs:blog_8.content.head_7")}</div>
                             <div className="pb-7">{t("static/blogs:blog_8.content.head_8")}</div>
                             <div className="pb-7">{t("static/blogs:blog_8.content.head_9")}</div>
-                            
+
 
 
 
@@ -265,7 +265,7 @@ blog_8
                             السعودي من <a href="">الزيوت </a>{" "}
                             <a href="">والفلاتر الأمريكية الأصلية</a>.
                           </div>
-                        
+
                       </div>
                     </div>
                   </Container>

@@ -28,6 +28,7 @@ import { API_URL } from "@framework/const";
 import  getDropDownManufacturer  from "./ManufacturerDropDown.json";
 import { useStore } from "@common/state";
 import { getCarLocalized } from "@utils/common/cars-localization";
+import { Image } from "@components/ui";
 
 
 interface Props {
@@ -86,7 +87,7 @@ const ProductListing: FunctionComponent<Props> = ({
   const [productsToShow, setProductsToShow] = useState(12);
   const [isLoading, setIsLoading] = useState(false);
   const { uniqueManufacturer, productType } = useStore();
-  
+
   useEffect(() => {
     const filterForm = JSON.parse(
       localStorage.getItem("categFilter") || "{}"
@@ -108,7 +109,7 @@ const ProductListing: FunctionComponent<Props> = ({
       setCategPill({ cateName: "", cateId: "" });
       setPageNumber({ pageNumber: "1" });
     }
-  }, []);
+  }, [category.id]);
 
   useEffect(() => {
     if (categPill.cateId === "RESET") {
@@ -132,7 +133,7 @@ const ProductListing: FunctionComponent<Props> = ({
         ? handelGoToPage(pageNumber.pageNumber)
         : "";
     }
-  }, [categPill]);
+  }, [categPill,handelGoToPage, handleCategoryFilterChange, pageNumber.pageNumber]);
 
   useEffect(() => {
     localStorage.setItem(
@@ -140,7 +141,7 @@ const ProductListing: FunctionComponent<Props> = ({
       JSON.stringify({ pageNumber: pageNumber.pageNumber })
     );
     handelGoToPage(pageNumber.pageNumber || "1");
-  }, [pageNumber]);
+  }, [pageNumber, handelGoToPage]);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -293,7 +294,7 @@ const ProductListing: FunctionComponent<Props> = ({
                                   className="mx-3"
                                   onChange={() => {}}
                                   onClick={() => {
-                                    let url = 
+                                    let url =
                                       urlMapper[
                                         String(
                                           `${op.makerEn}/${op.makerEn}${model.modelEn}/${op.makerEn}${model.modelEn}${year}`.toLowerCase()
@@ -438,7 +439,7 @@ const ProductListing: FunctionComponent<Props> = ({
               <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M3 9.0001H0M18 15.0001L15 15.0001M18 3.0001L10.2 3.00011M7.8 3.0001L1.40668e-06 3.0001M5.4 9.0001L18 9.0001M12.6 15.0001L8.82141e-07 15.0001M12.6 12.6001L12.6 17.4001L15 17.4001L15 12.6001L12.6 12.6001ZM3 6.6001L3 11.4001H5.4L5.4 6.6001H3ZM7.8 0.600098L7.8 5.4001L10.2 5.4001V0.600098L7.8 0.600098Z" stroke="#1D1929"/>
               </svg>
-            </div> 
+            </div>
 
             {/* Categoris selection top */}
             {showTopCategories ? (
@@ -463,7 +464,7 @@ const ProductListing: FunctionComponent<Props> = ({
                               }}
                             >
                               <button>
-                                <img
+                                <Image
                                   src={`/categories/${e.id}.jpg`}
                                   alt="Category Image"
                                 />{" "}
@@ -509,7 +510,7 @@ const ProductListing: FunctionComponent<Props> = ({
                               }}
                             >
                               <button>
-                                <img
+                                <Image
                                   src={`/categories/${e.id}.jpg`}
                                   alt="Category Image"
                                 />{" "}
@@ -611,7 +612,7 @@ const ProductListing: FunctionComponent<Props> = ({
                     {t("product/listing:productNotFound")}
                   </div>
                   <div>
-                    <img src="/images/notFoundImage.svg" alt="" />
+                    <Image src="/images/notFoundImage.svg" alt="" />
                   </div>
                 </div>
               )}

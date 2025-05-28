@@ -8,7 +8,7 @@ import {
 } from "react";
 import { useAuth } from "@common/hooks";
 import { isValidEmail, isValidPassword } from "@common/utils/validation";
-import { Button, Input } from "@components/ui";
+import { Button, Input, Image } from "@components/ui";
 import useTranslation from "next-translate/useTranslation";
 import { useRouter } from "next/router";
 
@@ -66,7 +66,7 @@ const MagnetLeed: FunctionComponent<Props> = ({
   return (
     <div className="flex flex-col items-center mx-14  md:mx-auto md:max-w-md md:mr-96">
       <form className="flex flex-col" onSubmit={submit}>
-        <img
+        <Image
           className="self-end md:absolute top-32 right-12"
           src="/images/SAR1.png"
           alt=""

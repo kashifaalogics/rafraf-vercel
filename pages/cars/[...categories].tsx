@@ -4,6 +4,7 @@ import {
   GetStaticPropsContext,
   GetStaticPropsResult,
   InferGetServerSidePropsType,
+
 } from "next";
 
 import { CATEGORIES_ROOT_ID } from "constants/category-ids";
@@ -198,7 +199,7 @@ export default function PartListingPage({
       // Update the store with manufacturerOptions
       setUniqueManufacturer(manufacturerOptions);
     }
-  }, [products.products]);
+  }, [products.products, setUniqueManufacturer]);
 
   useEffect(() => {
     if (products.products && products.products.length > 0) {
@@ -230,7 +231,7 @@ export default function PartListingPage({
       // Update the store with manufacturerOptions
       setProductType(typeOption);
     }
-  }, [products.products]);
+  }, [products.products, setProductType]);
 
 
 

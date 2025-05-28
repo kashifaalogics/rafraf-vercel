@@ -103,6 +103,10 @@ const AddressForm: FunctionComponent<Props> = ({
     setValidShippingForm(isValid);
     updateFormValidity(submitBtn && dirtyBit);
   }, [
+    countryStates,
+    loggedIn,
+    submitBtn,
+    updateFormValidity,
     emailExist,
     shippingMethod,
     dirtyBit,

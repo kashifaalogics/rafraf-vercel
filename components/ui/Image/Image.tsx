@@ -1,6 +1,7 @@
 import { useState, FunctionComponent, useEffect } from "react";
 import NextImage, { ImageProps } from "next/image";
 import { FALLBACK_IMAGE } from "@framework/const";
+//import { Image } from "@components/ui";
 
 interface StaticRequire {
   default: StaticImageData;
@@ -28,7 +29,7 @@ const Image: FunctionComponent<Props> = ({
         setImgSrc(fallbackSrc);
       }
     }
-  }, [imgSrc]);
+  }, [imgSrc, fallbackSrc]);
 
   return (
     // <NextImage
@@ -57,7 +58,7 @@ const Image: FunctionComponent<Props> = ({
         zIndex: 49,
       }}
     >
-      <img
+      <Image
         alt={rest.alt || imgSrc.toString()}
         src={imgSrc as string}
         decoding="async"

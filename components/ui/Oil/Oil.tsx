@@ -1,5 +1,6 @@
 import React from "react";
 import { useRouter } from "next/router";
+import { Image } from "@components/ui";
 
 const Oil = () => {
   const router = useRouter();
@@ -12,15 +13,17 @@ const Oil = () => {
           window.location.href = "ar/parts/7442/";
         }}
       >
-        <img
+        <Image
           src="/images/aboutus/american-oils.webp"
           className="h-96 w-96 flex items-center justify-center"
+          alt="American Oils"
         />
         <div className="px-6 py-4">
           <div>
-            <img
+            <Image
               src="/images/aboutus/oils.png"
               className="absolute left-0 top-0 h-17 w-16 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in"
+              alt=""
             />
           </div>
         </div>
@@ -33,15 +36,17 @@ const Oil = () => {
           window.location.href = "ar/featured/acdelco";
         }}
       >
-        <img
+        <Image
           src="/images/aboutus/filter.webp"
           className="h-96 w-96 flex items-center justify-center"
+          alt="Filters"
         />
         <div className="px-6 py-4">
           <div>
-            <img
+            <Image
               src="/images/aboutus/xD.png"
               className="absolute left-0 top-0 h-17 w-14 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in"
+              alt=""
             />
           </div>
         </div>

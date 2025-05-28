@@ -6,6 +6,7 @@ import PlayButton from "@components/ui/playButton/PlayButton";
 import { useState } from "react";
 import ModalThree from "@components/ui/modalThree/ModalThree";
 import YoutubeModal from "@components/ui/youtubeModal/youtubeModal";
+import { Image } from "@components/ui";
 
 function Lazyoutube() {
   const { t } = useTranslation();
@@ -41,7 +42,7 @@ function Lazyoutube() {
 
       <div className="flex items-center justify-center my-8 flex-wrap">
         <div className="w-full lg:w-2/3 xl:w-1/2 relative">
-          <img
+          <Image
             src="/images/Gearboxworth.webp"
             alt=""
             className="w-full md:w-full bg-black"
@@ -62,7 +63,7 @@ function Lazyoutube() {
             className="box-content h-64 w-64 p-6 shadow-md rounded-md mb-4 transition duration-300 ease-in-out transform bg-gradient-to-r from-white to-blue-300 hover:scale-105"
             onClick={() => router.push("/parts/all/product/20-bs405cus")}
           >
-            <img
+            <Image
               src="/images/20k.webp"
               alt=""
               className="mx-auto block max-w-full h-auto"
@@ -72,7 +73,7 @@ function Lazyoutube() {
             className="box-content h-64 w-64 p-6 shadow-md rounded-md transition duration-300 ease-in-out transform bg-gradient-to-r from-white to-blue-300 hover:scale-105"
             onClick={() => router.push("/parts/all/product/40-bs406cus")}
           >
-            <img
+            <Image
               src="/images/40k.webp"
               alt=""
               className="mx-auto block max-w-full h-auto"

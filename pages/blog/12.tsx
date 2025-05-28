@@ -44,7 +44,7 @@ function Blog({
   const { t } = useTranslation();
 
   return (
-    <div>    
+    <div>
       {/* Mobile Display */}
       <div className="relative block md:hidden">
         <Container>
@@ -67,7 +67,7 @@ function Blog({
                         {/* blog_4.content */}
 
                         <div className="my-10">
-                            <img
+                            <Image
                                 src={t("static/blogs:blog_12.imageUrl")}
                                 alt="blog-image"
                             />
@@ -173,7 +173,7 @@ function Blog({
                     >
                       <div className="my-8 mx-8">
                         <div className="my-10">
-                        <img
+                        <Image
                                 src={t("static/blogs:blog_12.imageUrl")}
                                 alt="blog-image"
                             />
@@ -183,7 +183,7 @@ function Blog({
                             <li className="pb-7">{t("static/blogs:blog_12.content.body_1_1")}</li>
                             <li className="pb-7">{t("static/blogs:blog_12.content.body_1_2")}</li>
                             </ul>
-                            
+
                           <div className="mt-10">
                             متجر رفرف الإلكتروني يوفّر مجموعة واسعة من قطع
                             الغيار الأصلية Genuine و OEM وقطع الغيار البديلة
@@ -217,7 +217,7 @@ function Blog({
                             السعودي من <a href="">الزيوت </a>{" "}
                             <a href="">والفلاتر الأمريكية الأصلية</a>.
                           </div>
-                        
+
                       </div>
                     </div>
                   </Container>

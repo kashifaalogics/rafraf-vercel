@@ -39,7 +39,7 @@ const Input: FunctionComponent<Props> = ({
     } else {
       setError(errorMessage);
     }
-  }, [value]);
+  }, [value, errorMessage, validationFunction, onValueChange]);
 
   return (
     <div className={containerClass}>

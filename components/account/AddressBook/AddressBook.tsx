@@ -12,6 +12,7 @@ import {
   useEffect,
   useMemo,
   useState,
+  useCallback,
 } from "react";
 import { $CombinedState } from "redux";
 import { getConfig } from "@framework/api/config";
@@ -93,16 +94,16 @@ const AddressBook: FunctionComponent<Props> = ({ onSaved = () => {} }) => {
     setPostCode({ value: CustomerAddress?.postCode, valid: true });
     setaddressId({ value: CustomerAddress?.addressId, valid: true });
   }, [customer, CustomerAddress, formShowHide]);
-  const validForm = useMemo<boolean>(
-    () =>
-      firstname.valid &&
-      Boolean(firstname.value) &&
-      lastname.valid &&
-      Boolean(lastname.value) &&
-      email.valid &&
-      Boolean(email.value),
-    [firstname, lastname, email]
-  );
+    const validForm = useMemo<boolean>(
+      () =>
+        firstname.valid &&
+        Boolean(firstname.value) &&
+        lastname.valid &&
+        Boolean(lastname.value) &&
+        email.valid &&
+        Boolean(email.value),
+      [firstname, lastname, email]
+    );
 
   const submit = async (e: FormEvent<HTMLFormElement>) => {
     console.log("in submit");
@@ -146,7 +147,7 @@ const AddressBook: FunctionComponent<Props> = ({ onSaved = () => {} }) => {
     try {
       var queryGet = `
       mutation {
-        updateCustomerAddress( 
+        updateCustomerAddress(
             id: ${addressId}
             input: {
               firstname : "${firstname}"
@@ -159,7 +160,7 @@ const AddressBook: FunctionComponent<Props> = ({ onSaved = () => {} }) => {
             }
           ) {
             id
-            firstname 
+            firstname
             lastname
             street
             city
@@ -168,7 +169,7 @@ const AddressBook: FunctionComponent<Props> = ({ onSaved = () => {} }) => {
             telephone
 
           }
-       }     
+       }
      `;
 
       const currentToken = JSON.parse(
@@ -204,10 +205,10 @@ const AddressBook: FunctionComponent<Props> = ({ onSaved = () => {} }) => {
     }
   }
 
-  async function getAddress(locale: string) {
-    try {
-      var queryGet = `
-      query getCustomerData{
+ const getAddress = useCallback(async (locale: string) => {
+  try {
+    const queryGet = `
+      query getCustomerData {
         customer {
           addresses {
             id
@@ -222,68 +223,53 @@ const AddressBook: FunctionComponent<Props> = ({ onSaved = () => {} }) => {
             default_billing
           }
         }
-      }     
+      }
     `;
 
-      const currentToken = JSON.parse(
-        window.localStorage.getItem("CUSTOMER_STATE") || "{}"
-      );
-      const apiConfig = getConfig({ locale: "ar" });
-      const res = await fetch(`${API_URL}/graphql`, {
-        method: "POST",
-        body: JSON.stringify({ query: queryGet, locale: apiConfig.locale }),
+    const currentToken = JSON.parse(
+      window.localStorage.getItem("CUSTOMER_STATE") || "{}"
+    );
+    const apiConfig = getConfig({ locale: "ar" });
+    const res = await fetch(`${API_URL}/graphql`, {
+      method: "POST",
+      body: JSON.stringify({ query: queryGet, locale: apiConfig.locale }),
+      headers: {
+        "Content-Type": "application/json",
+        Store: locale,
+        Authorization: `Bearer ${currentToken.token}`,
+      },
+    });
 
-        headers: {
-          "Content-Type": "application/json",
-          Store: locale,
-          Authorization: `Bearer ${currentToken.token}`,
-        },
-      });
+    const data = await res.json();
 
-      const data = await res.json();
+    const allAddresses = data.data.customer.addresses.map((address: any) => ({
+      firstname: address.firstname,
+      lastname: address.lastname,
+      street: address.street,
+      addressId: address.id,
+      country: address.country_code,
+      telephone: address.telephone,
+      city: address.city,
+      postCode: address.postcode,
+      default_shipping: address.default_shipping,
+      default_billing: address.default_billing,
+    }));
+    setAddresses(allAddresses);
 
-      const allAddresses = data.data.customer.addresses.map(
-        (address: {
-          default_shipping: any;
-          default_billing: any;
-          firstname: any;
-          lastname: any;
-          street: any;
-          id: any;
-          country_code: any;
-          telephone: any;
-          city: any;
-          postcode: any;
-        }) => ({
-          firstname: address.firstname,
-          lastname: address.lastname,
-          street: address.street,
-          addressId: address.id,
-          country: address.country_code,
-          telephone: address.telephone,
-          city: address.city,
-          postCode: address.postcode,
-          default_shipping: address.default_shipping,
-          default_billing: address.default_billing,
-        })
-      );
-      setAddresses(allAddresses);
-
-      const array = {
-        street: data.data.customer.addresses[0].street,
-        addressId: data.data.customer.addresses[0].id,
-        country: data.data.customer.addresses[0].country_code,
-        telephone: data.data.customer.addresses[0].telephone,
-        city: data.data.customer.addresses[0].city,
-        postCode: data.data.customer.addresses[0].postcode,
-      };
-      setCustomeraddress(array);
-      //    return data.customer.addresses[0];
-    } catch (e) {
-      console.log("ERROR 500");
-      console.log("failed to ????", e);
-    }
+    const array = {
+      street: data.data.customer.addresses[0].street,
+      addressId: data.data.customer.addresses[0].id,
+      country: data.data.customer.addresses[0].country_code,
+      telephone: data.data.customer.addresses[0].telephone,
+      city: data.data.customer.addresses[0].city,
+      postCode: data.data.customer.addresses[0].postcode,
+    };
+    setCustomeraddress(array);
+  } catch (e) {
+    console.log("ERROR 500");
+    console.log("failed to ????", e);
   }
+}, [setAddresses, setCustomeraddress]);
 
   const formOpens = () => {
     setformShowHide(true);
@@ -295,9 +281,9 @@ const AddressBook: FunctionComponent<Props> = ({ onSaved = () => {} }) => {
 
   useEffect(() => {
     getAddress("ar");
-  }, []);
+  }, [getAddress]);
   console.log("postCode:", postCode)
-  return (    
+  return (
     <div className="addressBookPage my_account_showcase pt-10">
       <H1>{t("account:AddressBook")}</H1>
       <div className="address_books">
@@ -441,7 +427,7 @@ const AddressBook: FunctionComponent<Props> = ({ onSaved = () => {} }) => {
                   errorMessage={t("common/account:nameError")}
                   type="text"
                   placeholder={t("account:streetExample")}
-                  onValueChange={(e) => setStreet(e)} 
+                  onValueChange={(e) => setStreet(e)}
                   value={street.value}
                   className="w-full"
                 />
@@ -457,7 +443,7 @@ const AddressBook: FunctionComponent<Props> = ({ onSaved = () => {} }) => {
                   className="w-full"
                 />
                 <Input
-                  label={t("account:city")} 
+                  label={t("account:city")}
                   id="city"
                   errorMessage={t("common/account:nameError")}
                   type="text"

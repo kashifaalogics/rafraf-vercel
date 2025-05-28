@@ -23,19 +23,19 @@ const CartEmptyView: FunctionComponent<Props> = ({ cartItems }) => {
     const showModal = router.query.modal === "login";
     if (!showModal) return;
     openModal(<LoginForm onLoginComplete={closeModal} />);
-  }, [router]);
+  }, [router, openModal, closeModal]);
 
   useEffect(() => {
     setCartCount(0);
-  }, []);
-  
+  }, [setCartCount]);
+
   return (
     <div>
       {cartItems.length === 0 ? (
         <div className="flex flex-col gap-8 justify-center items-center py-32">
           <CartIcon size={85} />
           <H3 className="text-blue">{t("cart:emptyCart")}</H3>
-          <Link href="/">
+          <Link href="/" passHref>
             <A
               className="py-4 w-full flex items-center justify-center bg-blue text-white text-lg rounded shadow-md hover:no-underline hover:bg-blue-dark transition-all"
               style={{ maxWidth: "409px", backgroundColor: "#1D4ED8" }}

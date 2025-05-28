@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Arrow } from "@components/icons";
+import { Image } from "@components/ui";
 
 const images = [
   "AcDelco10.webp",
@@ -20,7 +21,7 @@ const Carousel = () => {
   return (
     <div className="relative">
       <div className="w-full h-32 md:h-48 lg:h-64 overflow-hidden">
-        <img
+        <Image
           src={`/images/aboutus/${images[currentIndex]}`}
           alt="Carousel Image"
           className="object-cover w-full h-full"

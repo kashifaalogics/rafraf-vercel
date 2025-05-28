@@ -1,7 +1,7 @@
 import { H6, Caption3 } from "@components/typography";
 import { useRouter } from "next/router";
 import useTranslation from "next-translate/useTranslation";
-import { Link } from "@components/ui";
+import { Link, Image } from "@components/ui";
 import { A } from "@components/typography";
 
 interface Props {
@@ -14,7 +14,7 @@ interface Props {
 function BlogMini(props: Props) {
   const router = useRouter();
   const { t } = useTranslation();
-  
+
   return (
     <>
     <Link href={`/blog/${props.BlogId}`}>
@@ -29,7 +29,7 @@ function BlogMini(props: Props) {
         }}
       >
         <div className="px-1 mt-2">
-          <img
+          <Image
             src={props.Image}
             alt="blog-photo"
             width={"95px"}

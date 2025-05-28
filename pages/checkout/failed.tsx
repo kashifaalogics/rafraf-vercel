@@ -69,7 +69,7 @@ export default function CheckoutResult({
       <div className="flex justify-center items-center m-6">
         <A href={WHATSAPP_LINK} target="_blank">
           <div className="h-20 w-20 relative p-6">
-            <Image src={"/images/whatsapp.webp"} />
+            <Image src={"/images/whatsapp.webp"} alt=""/>
           </div>
         </A>
       </div>

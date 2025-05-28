@@ -130,7 +130,7 @@ export default function Part({
         id: product?.sku,
       },
     });
-  }, []);
+  }, [product?.name, product?.sku]);
 
   return (
     <>

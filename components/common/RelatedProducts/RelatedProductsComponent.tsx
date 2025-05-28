@@ -43,16 +43,16 @@ const RelatedProductsComponent: FunctionComponent<Props> = ({related_products}) 
         if (getProductBySku !== null) {
           setRelatedProducts((current:any) => [...current, getProductBySku])
           // newArray.push(getProductBySku);
-          
+
         }
       })
-      
+
 
       // setRelatedProducts(newArray)
 
     }
     fetchRelatedProductsData()
-  }, [related_products])
+  }, [related_products, router.locale]);
 
   return (
     <>

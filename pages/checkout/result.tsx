@@ -29,7 +29,7 @@ export async function getStaticProps(
   try {
     const config = getConfig({ locale: context.locale || "ar" });
     const categoriesPromise = getCategories(config, CATEGORIES_ROOT_ID);
-    const [categories] = await Promise.all([categoriesPromise]);  
+    const [categories] = await Promise.all([categoriesPromise]);
     return {
       props: {
         categories,
@@ -52,9 +52,11 @@ export default function CheckoutResult({
   const { customer } = useCustomer();
   const { cartItems } = useCartItems();
   const [error, setError] = useState<string>("")
-  const status = useMemo(() => router.query.status || "paid", [router.query, cartItems]);
+  //const status = useMemo(() => router.query.status || "paid", [router.query, cartItems]);
+  const status = useMemo(() => router.query.status || "paid", [router.query]);
+
   const { recordAnalytic, searchCookie } = useSearchEngine();
-  
+
 
 
   useEffect(() => {
@@ -68,7 +70,7 @@ export default function CheckoutResult({
           const fullName = shippingAddress.firstname + " " + shippingAddress.lastname
           const city = shippingAddress.city
           const phone = shippingAddress.telephone
-    
+
           const req = async () => {
             await fetch("https://pythondata.rafraf.com/gs",
               {
@@ -87,12 +89,12 @@ export default function CheckoutResult({
           }
           req();
         }
-    
+
         const SKUsArray = cartItems.map((item) => item.product.sku);
         const CART_ITEMS_LOCAL = JSON.parse(
           localStorage.getItem("CART_ITEMS") || "[]"
         );
-    
+
         const record = () =>
           CART_ITEMS_LOCAL.map((i: { [x: string]: any }) => {
             if (SKUsArray.includes(i["SKU"])) {
@@ -125,28 +127,34 @@ export default function CheckoutResult({
             currency: "SAR",
           }
         })
-      }  
+      }
     }
-  }, [cartItems, status]);
+  }, [cartItems, status, cart,
+  router.query.incrementOrderID,
+  recordAnalytic,
+  searchCookie,
+  customer?.email,
+  customer?.firstname,
+  customer?.lastname]);
 
 
   useEffect(() => {
       if (status === "paid") {
         cart.reset();
-      }  
-  }, [status])
+      }
+  }, [status, cart])
 
 
   useEffect(() => {
     try {
       setError(t(`checkout:${router.query.message as string}`))
     }
-    
+
     catch(e){
       setError( router.query.message as string );
       console.log(e)
     }
-  }, [router.query.message]);
+  }, [router.query.message, t]);
 
   return (
     <Container style={{ backgroundColor: "#FAFAFA" }}>
@@ -154,7 +162,7 @@ export default function CheckoutResult({
         <Container style={{ backgroundColor: "#FAFAFA" }}>
           <div className="flex flex-col justify-center items-center p-10 gap-10">
             <div className="h-28 w-48 relative">
-              <Image src="/images/payment-success.png" />
+              <Image src="/images/payment-success.png" alt="Payment success icon"/>
             </div>
 
             <H3 className="text-green-700">{t("checkout:success")}</H3>
@@ -177,7 +185,7 @@ export default function CheckoutResult({
           <div className="flex justify-center items-center m-6">
             <A href={WHATSAPP_LINK} target="_blank">
               <div className="h-20 w-20 relative p-6">
-                <Image src={"/images/whatsapp.webp"} />
+                <Image src={"/images/whatsapp.webp"} alt="WhatsApp support"/>
               </div>
             </A>
           </div>

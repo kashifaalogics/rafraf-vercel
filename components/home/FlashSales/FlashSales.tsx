@@ -42,7 +42,7 @@ const FlashSales: FunctionComponent<Props> = ({ products, title, routerId }) => 
     })
     console.log("filtered:", filtered.slice(0, 8))
     setAvaliableProducts(filtered.slice(0, 8))
-  }, [])
+  }, [products, routerId])
 
   if (breakpoint === "sm") {
     return (
@@ -50,7 +50,7 @@ const FlashSales: FunctionComponent<Props> = ({ products, title, routerId }) => 
         <div className="mb-12">
           <div className="flex justify-between items-center gap-6">
             <H2>{title}</H2>
-            
+
           </div>
 
           <div

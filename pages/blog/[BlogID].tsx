@@ -166,9 +166,9 @@ export default function Blog({
         </title>
         <link rel="canonical" href={`https://rafraf.com/ar/blog/${blogID}`} />
       </Head>
-  
+
       {
-      blogID === 'فترة-تليين-السيارة' ? 
+      blogID === 'فترة-تليين-السيارة' ?
       <div>
 
       {/* Mobile display */}
@@ -196,7 +196,7 @@ export default function Blog({
                     150 كيلومتر فقط وهي فترة تخلص الإطارات من المادة العازلة
                     والتصاقها بالطريق بشكل كامل.
                     <div className="my-10">
-                      <img
+                      <Image
                         src="https://api.rafraf.com/pub/media/magefan_blog/file_610.png"
                         alt="blog-image"
                       />
@@ -280,7 +280,7 @@ export default function Blog({
                 </P>
               </div>
               <RecentBlogs />
-              
+
               <div></div>
             </div>
           </div>
@@ -344,7 +344,7 @@ export default function Blog({
                         فترة إلى مايصل 150 كيلومتر فقط وهي فترة تخلص الإطارات من
                         المادة العازلة والتصاقها بالطريق بشكل كامل.
                         <div className="my-10">
-                          <img
+                          <Image
                             src="https://api.rafraf.com/pub/media/magefan_blog/file_610.png"
                             alt="blog-image"
                           />

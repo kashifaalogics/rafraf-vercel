@@ -7,7 +7,8 @@ import { useUI } from "@components/ui/constext";
 import { SelectShippingMethod } from ".";
 import { createOrder, createApplepayOrder } from "@framework/orders";
 import { useRouter } from "next/router";
-  
+import { Image } from "@components/ui";
+
 interface Props {
     loggedIn: boolean;
     validShippingForm: boolean;
@@ -31,7 +32,7 @@ function ApplePayPayment({loggedIn, validShippingForm, city, firstname, lastname
 
   const [requiredFeilds, setRequiredFeilds] = useState(false);
     // Send the purchase event to Google Analytics 4
- 
+
 
 
   return (
@@ -47,7 +48,7 @@ function ApplePayPayment({loggedIn, validShippingForm, city, firstname, lastname
             };
             setRequiredFeilds(false)
             if(!applePayAvailable) return
-            
+
             const amount = cart.prices?.grandTotal?.value;
             const request = {
                 currencyCode: 'SAR',
@@ -57,11 +58,11 @@ function ApplePayPayment({loggedIn, validShippingForm, city, firstname, lastname
                 supportedNetworks: ['masterCard', 'visa', 'mada'],
                 merchantCapabilities: ['supports3DS', 'supportsCredit', 'supportsDebit']
             };
-            
+
             const session = new window.ApplePaySession(6, request);
-            
+
             session.onvalidatemerchant = (event: any) => {
-            
+
             let merchantBackendUrl = 'https://api.moyasar.com/v1/applepay/initiate';
                 let body = {
                     "validation_url": event.validationURL,
@@ -69,7 +70,7 @@ function ApplePayPayment({loggedIn, validShippingForm, city, firstname, lastname
                     "domain_name": "rafraf.com",
                     "publishable_api_key": "pk_live_gaX1rKSpFrQMYH2pMWTLnZVxirwjCj9TbRx8p9VK"
                 };
-                
+
                 fetch(merchantBackendUrl, {
                     method: 'POST',
                     body: JSON.stringify(body),
@@ -100,10 +101,10 @@ function ApplePayPayment({loggedIn, validShippingForm, city, firstname, lastname
                 promises.push(p2);
                 }
                 const _ = await Promise.all(promises);
-            
+
                 if (!address?.selectedShippingMethod) {
                 openModal(<SelectShippingMethod />);
-                }                          
+                }
             }
             SaveUserInfo()
 
@@ -118,7 +119,7 @@ function ApplePayPayment({loggedIn, validShippingForm, city, firstname, lastname
             });
                 return
             };
-            
+
             let body = {
                 amount: Math.floor(amount * 100),
                 description: 'Rafraf Store',
@@ -128,11 +129,11 @@ function ApplePayPayment({loggedIn, validShippingForm, city, firstname, lastname
                     token: appleToken
                 }
             };
-            
+
             fetch('https://api.moyasar.com/v1/payments', {
                 method: 'POST',
                 body: JSON.stringify(body),
-                headers: { 
+                headers: {
                 'Content-Type': 'application/json',
                 Authorization: `Basic ${key}`
                 },
@@ -142,7 +143,7 @@ function ApplePayPayment({loggedIn, validShippingForm, city, firstname, lastname
                 if (!payment.id) {
                     // handle validation or API authorization error
                 }
-        
+
                 if (payment.status != 'paid') {
                     session.completePayment({
                         status: window.ApplePaySession.STATUS_FAILURE,
@@ -150,7 +151,7 @@ function ApplePayPayment({loggedIn, validShippingForm, city, firstname, lastname
                             payment.source.message
                         ]
                     });
-        
+
                     return;
                 }
 
@@ -164,7 +165,7 @@ function ApplePayPayment({loggedIn, validShippingForm, city, firstname, lastname
                     status: window.ApplePaySession.STATUS_SUCCESS
                 });
                 if (res != "failed") {
-                    gtag("event", "purchase", 
+                    gtag("event", "purchase",
                     {
                       transaction_id: router.query.orderId,
                       value: cart.prices?.grandTotal?.value.toFixed(2),
@@ -186,9 +187,9 @@ function ApplePayPayment({loggedIn, validShippingForm, city, firstname, lastname
                           quantity: 1
                         }]
                     }
-                  
+
                 );
-                
+
                 const url = `https://rafraf.com/ar/checkout/result?finished=true&status=paid&message=APPROVED&incrementOrderID=${orderNumber}`
                 router.push(url)
                 }
@@ -202,14 +203,14 @@ function ApplePayPayment({loggedIn, validShippingForm, city, firstname, lastname
                 });
             });
         };
-            
+
             session.begin();
             }}
             className={`col-span-3 w-full py-4 bg-black rounded flex justify-center items-center border-2 border-black text-white ${applePayAvailable? "" : "cursor-not-allowed"}`}
             type="submit"
         >
             <span className="font-bold">Pay</span>
-            <img src="../images/brands/white-apple-pay.png" width={20} alt="" />
+            <Image src="../images/brands/white-apple-pay.png" width={20} alt="Apple Pay"/>
         </button>
     </div>
   )

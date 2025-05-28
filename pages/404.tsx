@@ -56,13 +56,13 @@ export default function NotFound({
     </Head>
       <Container el="section">
         <div className="relative h-52">
-          <Image src={svg404} layout="fill" objectFit="scale-down" />
+          <Image src={svg404} layout="fill" objectFit="scale-down" alt=""/>
         </div>
         <div className="flex justify-center items-center flex-col gap-4 p-5">
           <H3>{t("common:notFound")}</H3>
           <Button className="p-3" onClick={() => router.push("/")}>{t("common:goToHome")}</Button>
         </div>
-        
+
       </Container>
     </>
   );

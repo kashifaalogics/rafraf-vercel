@@ -7,7 +7,7 @@ import { useRouter } from "next/router";
 import useTranslation from "next-translate/useTranslation";
 import manuImg from "../../../assets/data/manufacturersImages.json";
 import manuLabel from "../../../assets/data/manufacturers.json";
-import { Button } from "@components/ui";
+import { Button, Image } from "@components/ui";
 import { useStore } from "@common/state";
 
 interface Props {}
@@ -81,8 +81,8 @@ const SearchEngineDropdown: FunctionComponent<Props> = (props) => {
         >
           <Link
             href={`/parts/all/product/${
-              Array.isArray(r["url_key"]) ? r["url_key"][0] : r["url_key"] 
-            }`}
+              Array.isArray(r["url_key"]) ? r["url_key"][0] : r["url_key"]
+            }`} passHref
           >
             <A>
               <div
@@ -106,7 +106,7 @@ const SearchEngineDropdown: FunctionComponent<Props> = (props) => {
                     ? r.part_manufacturer_store_value && (
                         <>
                           <div className="col-span-2">
-                            <img
+                            <Image
                               src={
                                 IMAGES_STORAGE_URL +
                                 manuImg[
@@ -122,7 +122,7 @@ const SearchEngineDropdown: FunctionComponent<Props> = (props) => {
                     : ""}
                 </div>
                 <div className="w-14 relative h-14">
-                  <img
+                  <Image
                     src={`https://s3.me-south-1.amazonaws.com/images.rafraf.com/${r.Picture}`}
                     alt="Rafraf Image"
                     // layout="fill"

@@ -11,13 +11,14 @@ import { getAcdelcoQuery } from '@framework/utils/graphql';
 import ProductCardv2 from "@components/product/productCardv2";
 import { Layout } from "@components/common";
 import Timer from "@components/ui/Timer";
+import { Image } from "@components/ui";
 
 interface Product {
   id: string;
   name: string;
   sku: string;
   __typename: string;
-  image: { url: string }; 
+  image: { url: string };
   price_range: {
     maximum_price: {
       regular_price: {
@@ -67,9 +68,9 @@ const ACDelco: React.FC = () => {
   useEffect(() => {
     fetchProducts();
   }, []);
-  
 
-  
+
+
 
   return (
     <>
@@ -118,7 +119,7 @@ const ACDelco: React.FC = () => {
                     {t("product/listing:productNotFound")}
                   </div>
                   <div>
-                    <img src="/images/notFoundImage.svg" alt="" />
+                    <Image src="/images/notFoundImage.svg" alt="" />
                   </div>
                 </div>
               )}

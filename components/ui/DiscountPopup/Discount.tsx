@@ -1,8 +1,9 @@
 import React from 'react'
+import { Image } from "@components/ui";
 
 function DiscountPopUp() {
   return (
-    <img className="mx-auto my-auto"src="/images/ACDcup.png" alt="" />
+    <Image className="mx-auto my-auto"src="/images/ACDcup.png" alt="" />
   )
 }
 

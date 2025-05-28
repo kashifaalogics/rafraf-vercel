@@ -79,7 +79,7 @@ const CarSelection = () => {
       setCarForm(true);
       setForm("MG Form");
     }
-  }, [carSelection.selectedCarBrand]);
+  }, [carSelection.selectedCarBrand, t]);
 
   useEffect(() => {
     if (selectedCarBrand.id) {
@@ -102,7 +102,7 @@ const CarSelection = () => {
       })[0].years;
       setCarYears(year);
     }
-  }, [selectedCarModel]);
+  }, [selectedCarModel, carModels]);
 
   useEffect(() => {
     if (selectedCarYears.year) {
@@ -121,7 +121,7 @@ const CarSelection = () => {
           ]
       );
     }
-  }, [selectedCarYears]);
+  }, [selectedCarYears, router, selectedCarModel, selectedCarBrand]);
 
   useEffectV2(() => {
     // Check if localStorage is available (client-side)
@@ -277,7 +277,7 @@ const CarSelection = () => {
                 </div>
                 <div className="px-2">
                   {carSelection.selectedCarBrand?.name === t("home:MGForm") ? (
-                    <img
+                    <Image
                       style={{
                         height: "50px",
                         width: "auto",
@@ -287,7 +287,7 @@ const CarSelection = () => {
                     />
                   ) : carSelection.selectedCarBrand?.name ===
                     t("home:hondaForm") ? (
-                    <img
+                    <Image
                       style={{
                         height: "50px",
                         width: "auto",
@@ -429,7 +429,7 @@ const CarSelection = () => {
                 </div>
                 <div className="px-2">
                   {carSelection.selectedCarBrand?.name === t("home:MGForm") ? (
-                    <img
+                    <Image
                       style={{
                         height: "50px",
                         width: "auto",
@@ -439,7 +439,7 @@ const CarSelection = () => {
                     />
                   ) : carSelection.selectedCarBrand?.name ===
                     t("home:hondaForm") ? (
-                    <img
+                    <Image
                       style={{
                         height: "50px",
                         width: "auto",

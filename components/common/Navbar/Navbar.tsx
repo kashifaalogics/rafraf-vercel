@@ -52,7 +52,7 @@ const Navbar: FunctionComponent<Props> = () => {
     if (router.query.q) {
       setSearch(router.query.q as string);
     }
-  }, [router.query]);
+  }, [router.query, setSearch]);
 
   async function serachQuery(e: any) {
     setPageSize(10);
@@ -101,12 +101,12 @@ const Navbar: FunctionComponent<Props> = () => {
                   behavior: "Discount_navBar",
                 });
               }}
-            > 
+            >
               <div className="px-1">{t("common:DiscountNavBar")}</div>{" "}
               <div className="flex gap-1">
-                <img className="w-5" src={"/images/SA.webp"} />
-                <img className="w-5" src={"/images/SA.webp"} />
-                <img className="w-5" src={"/images/SA.webp"} />
+                <Image className="w-5" src={"/images/SA.webp"} />
+                <Image className="w-5" src={"/images/SA.webp"} />
+                <Image className="w-5" src={"/images/SA.webp"} />
               </div>
               {t("common:star")}
             </div> */}
@@ -139,12 +139,12 @@ const Navbar: FunctionComponent<Props> = () => {
             >
               {t("common:topNotification")}
               <div className="flex gap-1 px-1">
-                {/* <img className="w-5" src={"/images/SA.webp"} /> */}
-                {/* <img className="w-5" src={"/images/SA.webp"} /> */}
-                {/* <img className="w-5" src={"/images/SA.webp"} /> */}
+                {/* <Image className="w-5" src={"/images/SA.webp"} /> */}
+                {/* <Image className="w-5" src={"/images/SA.webp"} /> */}
+                {/* <Image className="w-5" src={"/images/SA.webp"} /> */}
               </div>
               {/* {t("common:star")} */}
-              <img className="w-5" src={"/images/whatsapp.webp"} />
+              <Image className="w-5" src={"/images/whatsapp.webp"} alt=""/>
             </div>
           </A>
         </div>
@@ -169,12 +169,12 @@ const Navbar: FunctionComponent<Props> = () => {
                       : "md:h-24 md:w-10 h-9 w-9"
                   }`}
                 >
-                  <img
+                  <Image
                     src={"/logo/rafraf.webp"}
                     className="hidden lg:block"
                     alt="rafraf logo"
                   />
-                  <img
+                  <Image
                     src={"/logo/rafraf-small.webp"}
                     className="w-4/5	 block lg:hidden"
                     alt="rafraf logo"
@@ -259,7 +259,7 @@ const Navbar: FunctionComponent<Props> = () => {
                   className={`relative flex items-center justify-center gap-2`}
                 >
                   <div>{t("common/navbar:secureCheckout")}</div>
-                  <img className="w-6" src={"/images/whatsapp.webp"} />
+                  <Image className="w-6" src={"/images/whatsapp.webp"} alt=""/>
                 </div>
               </A>
             </div>

@@ -102,7 +102,7 @@ const ACDelco: React.FC = () => {
             </div> */}
             <div className={`flex flex-wrap gap-7 justify-${products.length > 0 ? "start" : "center"} relative my-5`}>
               {isLoading ? (
-                range({ e: 9 }).map((i) => (
+                range({ e: 1 }).map((i) => (
                   <div className="flex-1" key={i}>
                     <ProductCardSkeleton />
                   </div>

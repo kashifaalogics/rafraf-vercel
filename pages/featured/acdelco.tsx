@@ -11,6 +11,7 @@ import { getAcdelcoQuery } from '@framework/utils/graphql';
 import ProductCardv2 from "@components/product/productCardv2";
 import { Layout } from "@components/common";
 import Timer from "@components/ui/Timer";
+import Image from "next/image";
 
 interface Product {
   id: string;
@@ -118,7 +119,7 @@ const ACDelco: React.FC = () => {
                     {t("product/listing:productNotFound")}
                   </div>
                   <div>
-                    <img src="/images/notFoundImage.svg" alt="" />
+                    <Image src="/images/notFoundImage.svg" alt="" />
                   </div>
                 </div>
               )}

@@ -1,13 +1,12 @@
 module.exports = {
-  images: {
-    domains: ['rafraf.com', 's3.me-south-1.amazonaws.com'],
-  },
-  webpackDevMiddleware: (config) => {
-    // Solve compiling problem via vagrant
-    config.watchOptions = {
-      poll: 1000,   // Check for changes every second
-      aggregateTimeout: 300,   // delay before rebuilding
-    };
+  // other valid configs like `images`, `reactStrictMode`, `webpack`, etc.
+  webpack(config, { dev }) {
+    if (dev) {
+      config.watchOptions = {
+        poll: 1000,
+        aggregateTimeout: 300,
+      };
+    }
     return config;
-  }
+  },
 };

@@ -1,8 +1,34 @@
 import { GtmBase, GtmNoScript } from "framework/analytics";
-import Document, { Head, Html, Main, NextScript } from "next/document";
-
+import Document, { Head, Html, Main, NextScript, DocumentContext, DocumentInitialProps } from "next/document";
 
 class RafrafDocument extends Document {
+  static async getInitialProps(ctx: DocumentContext): Promise<DocumentInitialProps> {
+    try {
+      const initialProps = await Document.getInitialProps(ctx);
+
+      // Implement a size check for rendered content
+      const content = initialProps.html;
+      if (content && content.length > 1024 * 1024) { // 1MB limit
+        console.warn(`Large page content detected (${content.length} bytes) for ${ctx.pathname}`);
+        // You might want to log this to your monitoring system
+      }
+
+      return {
+        ...initialProps,
+        // Ensure we're not exceeding Node's string size limits
+        html: content.slice(0, Math.min(content.length, 512 * 1024 * 1024)), // 512MB max (Node's string size limit)
+      };
+    } catch (error) {
+      console.error(`Error in document getInitialProps for ${ctx.pathname}:`, error);
+      // Return minimal valid document props in case of error
+      return {
+        html: '',
+        head: [],
+        styles: [],
+      };
+    }
+  }
+
   render() {
     return (
       <Html
@@ -21,6 +47,9 @@ class RafrafDocument extends Document {
                 </script> */}
           <GtmBase />
           <meta httpEquiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+          {/* Add meta tags to help with large content */}
+          <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+          <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         </Head>
         <body style={{ overflowX: "hidden" }}>
             <GtmNoScript />

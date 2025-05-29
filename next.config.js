@@ -1,23 +1,19 @@
-const withFrameworkConfig = require("./framework/common/config");
-const nextTranslate = require("next-translate");
+const { withFrameworkConfig } = require('./framework/common/config');
 
-const defaultNextConfig = {
-  framework: {
-    name: process.env.NEXT_PUBLIC_FRAMEWORK,
+const frameworkName = 'magento'; // ✅ define separately
+
+module.exports = withFrameworkConfig(frameworkName, {
+  images: {
+    domains: ['rafraf.com', 's3.me-south-1.amazonaws.com'],
   },
-  i18n: {
-    locales: ["ar", "en"],
-    defaultLocale: "ar",
-    localeDetection: false
-  },
-  webpackDevMiddleware: (config) => {
-    // Solve compiling problem via vagrant
-    config.watchOptions = {
-      poll: 1000,   // Check for changes every second
-      aggregateTimeout: 300,   // delay before rebuilding
-    };
+  reactStrictMode: true,
+  webpack(config, { dev }) {
+    if (dev) {
+      config.watchOptions = {
+        poll: 1000,
+        aggregateTimeout: 300,
+      };
+    }
     return config;
-  }
-};
-
-module.exports = nextTranslate(withFrameworkConfig(defaultNextConfig));
+  },
+});

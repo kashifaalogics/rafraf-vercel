@@ -4,24 +4,20 @@ const merge = require("deepmerge");
 
 const SUPPORTED_FRAMEWORKS = ["magento"];
 
-module.exports = function withFrameworkConfig(defaultNextConfig) {
-  const framework = defaultNextConfig?.framework?.name;
-
+function withFrameworkConfig(framework, defaultNextConfig) {
   if (!framework) {
     throw new Error(
-      "The framework api is missing in `framework.name`, please add a valid provider"
+      "The framework name is missing. Please pass a valid provider name as the first argument."
     );
   }
 
   if (!SUPPORTED_FRAMEWORKS.includes(framework)) {
     throw new Error(
-      `The framework ${framework} is not supported, please choose one of [${SUPPORTED_FRAMEWORKS.join(
-        ", "
-      )}] or write your own framework api`
+      `The framework "${framework}" is not supported. Supported frameworks: [${SUPPORTED_FRAMEWORKS.join(", ")}]`
     );
   }
 
-  // merge framework next config with default next config
+  // merge framework next config with default config
   const frameworkNextConfig = require(path.join(
     process.cwd(),
     "framework",
@@ -30,18 +26,14 @@ module.exports = function withFrameworkConfig(defaultNextConfig) {
   ));
   const finalConfig = merge(defaultNextConfig, frameworkNextConfig);
 
-  // modify tsConfig to match the chosen framework
+  // update tsconfig.json paths
   const tsPath = path.join(process.cwd(), "tsconfig.json");
   const tsConfig = require(tsPath);
   tsConfig.compilerOptions.paths["@framework"] = [`framework/${framework}`];
-  tsConfig.compilerOptions.paths["@framework/*"] = [
-    `framework/${framework}/*`,
-  ];
-  // write tsConfig changes
-  fs.writeFileSync(
-    path.join(process.cwd(), "tsconfig.json"),
-    JSON.stringify(tsConfig, null, 2)
-  );
+  tsConfig.compilerOptions.paths["@framework/*"] = [`framework/${framework}/*`];
+  fs.writeFileSync(tsPath, JSON.stringify(tsConfig, null, 2));
 
   return finalConfig;
-};
+}
+
+module.exports = { withFrameworkConfig };
